@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a problem in a skill, agent prompt, template, or validation script.
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private resumes, candidate information, credentials, or personal contact details."
+  - type: input
+    id: file
+    attributes:
+      label: Affected file or skill
+      placeholder: skills/job-fit-analyzer/SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the prompt context with private data removed.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: false

@@ -1,0 +1,2296 @@
+{
+  "description": "One illustrative input/output contract per skill. These cases are not measured benchmarks.",
+  "cases": [
+    {
+      "skill": "profile-audit",
+      "input": "Audit this profile for entry-level data analyst roles. Identify the three highest-impact improvements and rewrite my headline and About using only the facts I provide.",
+      "expected_output_sections": [
+        "Goal and audience",
+        "Section-by-section review with rubric rationale",
+        "Top five prioritized changes",
+        "Copy-ready rewrites",
+        "Missing evidence and profile changes the user must make"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "headline-about-optimizer",
+      "input": "Create three LinkedIn headline options and an About section for a second-year computer science student seeking software internships. Use my coursework and two projects; do not invent work experience.",
+      "expected_output_sections": [
+        "Positioning statement",
+        "Three headline options",
+        "Recommended headline and rationale",
+        "About section draft",
+        "Keywords naturally incorporated",
+        "Placeholders and facts requiring confirmation"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "experience-proof-writer",
+      "input": "Rewrite my campus hackathon project for LinkedIn Experience. I built the frontend and integrated speech input; the team built the backend. Keep my contribution distinct from the team's work.",
+      "expected_output_sections": [
+        "Reconstructed role/project summary",
+        "2–5 evidence-based bullets",
+        "Missing proof questions",
+        "Optional short version for profile display"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "profile-keyword-mapper",
+      "input": "Compare these three product analyst job descriptions with my profile. Find overlapping skills I can truthfully feature and gaps I should address.",
+      "expected_output_sections": [
+        "Keyword groups with source context",
+        "Evidence mapping table",
+        "Suggested profile placement",
+        "Unsupported terms to learn or evidence",
+        "Draft wording"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "skills-inventory-curator",
+      "input": "Help me choose the most relevant LinkedIn skills for an entry-level cloud engineer profile. I have coursework, one AWS lab project, and basic Linux experience.",
+      "expected_output_sections": [
+        "Categorized skills inventory",
+        "Evidence and confidence column",
+        "Priority list for target role",
+        "Skills to remove, verify, or develop",
+        "Suggested proof-building actions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-search-strategist",
+      "input": "Build a four-week search plan for junior backend developer roles in Mumbai and remote India. I can spend six hours each week and have two Python projects.",
+      "expected_output_sections": [
+        "Target role map",
+        "Search query set",
+        "Role filters and decision rules",
+        "Weekly action plan",
+        "Tracking and review metrics"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-fit-analyzer",
+      "input": "Compare my resume to this junior ML engineer posting. Tell me which requirements I can demonstrate, which are gaps, and whether I should apply despite lacking a production ML internship.",
+      "expected_output_sections": [
+        "Role summary and hard constraints",
+        "Requirement-to-evidence matrix",
+        "Strengths, gaps, and unknowns",
+        "Optional transparent fit rubric",
+        "Apply / investigate / deprioritize recommendation"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "resume-tailor",
+      "input": "Tailor my attached resume for this data analyst internship. Keep all dates and facts unchanged, improve project bullets, and explain any keyword you decide not to include.",
+      "expected_output_sections": [
+        "Target-role requirement map",
+        "Revised resume content by section",
+        "Keyword coverage supported by evidence",
+        "Change log",
+        "ATS-readability checklist and unresolved gaps"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "application-tracker",
+      "input": "Create a CSV-friendly application tracker for these five roles. Add stages, next actions, and a follow-up date only where a real contact or deadline supports it.",
+      "expected_output_sections": [
+        "Tracker schema or updated rows",
+        "Stage summary",
+        "Next-action list with dates",
+        "Missing fields and stale-record flags",
+        "Optional CSV-compatible table"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "cover-letter-writer",
+      "input": "Write a tailored cover letter for this product analyst internship using my project experience and the company's public product information. Do not claim I have used their product professionally.",
+      "expected_output_sections": [
+        "Tailoring rationale",
+        "Cover letter draft",
+        "Claims needing confirmation",
+        "Optional shorter application-text version"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "network-map-builder",
+      "input": "Help me map a small network for cloud engineering internships. I know two alumni, a professor, and three people from a campus tech club; suggest respectful ways to learn from them.",
+      "expected_output_sections": [
+        "Goal and network segments",
+        "Relationship map using categories or initials",
+        "Communities and connection paths to explore",
+        "Conversation objectives",
+        "Two-week relationship-building plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "connection-request-writer",
+      "input": "Draft a short connection note to an alumnus working in data engineering. I found their talk on data pipelines useful and would like to connect, not immediately ask for a referral.",
+      "expected_output_sections": [
+        "Recommended connection note",
+        "Alternate version",
+        "Personalization detail used",
+        "Fact to verify before sending"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "cold-outreach-writer",
+      "input": "Write a concise cold message to a product manager whose public talk I watched. Ask one thoughtful question about moving from engineering to product; don't ask for a job.",
+      "expected_output_sections": [
+        "Subject or opening line when appropriate",
+        "First message",
+        "Optional follow-up with suggested interval and stop condition",
+        "Personalization evidence and facts to verify"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "referral-request-writer",
+      "input": "Write a referral request to a former internship teammate for a junior analyst opening at their company. I meet three listed requirements and want to make it easy for them to say no.",
+      "expected_output_sections": [
+        "Recommended referral message",
+        "Lower-pressure alternative",
+        "Role and fit summary",
+        "Attachment or link checklist",
+        "Follow-up boundary"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiter-reply-coach",
+      "input": "A recruiter asked for my expected salary and notice period. Help me reply that I want to understand the role scope and budget first; don't invent a current salary or notice period.",
+      "expected_output_sections": [
+        "Message intent and key points",
+        "Recommended reply",
+        "Questions to clarify",
+        "Optional boundary-setting alternative"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "follow-up-planner",
+      "input": "I interviewed last Thursday and the recruiter said they hoped to update me this week. Draft a polite follow-up for after the promised window, not before it.",
+      "expected_output_sections": [
+        "Follow-up recommendation and rationale",
+        "Suggested date or window",
+        "Draft message",
+        "Stop condition and tracker update"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "interview-research-brief",
+      "input": "Prepare a research brief for a first-round backend engineer interview using this job description and public company information. Separate verified facts from your interview-topic hypotheses.",
+      "expected_output_sections": [
+        "Role and company context",
+        "Competency map",
+        "Likely question themes, clearly labelled as hypotheses",
+        "Candidate evidence to prepare",
+        "Questions to ask",
+        "Timed preparation plan",
+        "Sources and retrieval dates"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "star-story-bank",
+      "input": "Help me build STAR stories from a college team project, a failed prototype, and a volunteer event. Make my contribution explicit and don't invent an outcome.",
+      "expected_output_sections": [
+        "STAR story cards",
+        "Competency tags",
+        "Evidence and metric gaps",
+        "60–90 second spoken version",
+        "Follow-up question prompts"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "mock-interview-coach",
+      "input": "Run a junior Python developer mock interview one question at a time. Ask a practical question, wait for my answer, then give direct feedback and a stronger structure.",
+      "expected_output_sections": [
+        "Practice plan and rubric",
+        "Questions and user answers",
+        "Specific feedback with strengths and gaps",
+        "Suggested answer structure",
+        "Next practice priorities"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "salary-negotiation-coach",
+      "input": "Help me evaluate this offer. Separate base pay, variable pay, equity, benefits, and location costs; draft a counter that asks whether the base can move without bluffing about another offer.",
+      "expected_output_sections": [
+        "Offer breakdown and unknowns",
+        "Evidence-based market context, if sourced",
+        "Negotiation priorities and options",
+        "Suggested language",
+        "Risks, trade-offs, and decision checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-post-writer",
+      "input": "Turn this debugging lesson from my college project into a LinkedIn post for other student developers. Keep it specific, avoid fake metrics, and don't make it sound like a motivational speech.",
+      "expected_output_sections": [
+        "Audience and single takeaway",
+        "Draft post",
+        "Alternate opening",
+        "Evidence and privacy checks",
+        "Optional visual or source suggestion"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "comment-engagement-coach",
+      "input": "Write a thoughtful comment on this post about open-source maintenance. I agree with the point about issue quality and want to add one lesson from my student project.",
+      "expected_output_sections": [
+        "Post's central point",
+        "Comment angle",
+        "Draft comment",
+        "Optional shorter version",
+        "Fact and privacy checks"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "content-calendar-planner",
+      "input": "Plan a four-week content calendar for a student interested in AI engineering. I can write one post per week and want to share real learning, not pretend to be an expert.",
+      "expected_output_sections": [
+        "Audience and content goals",
+        "3–5 content pillars",
+        "Calendar with topic, format, takeaway, and source/evidence",
+        "Production checklist",
+        "Review questions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "personal-brand-strategist",
+      "input": "Help me position myself as an early-career open-source and AI tools builder. I have two public projects and want a credible student voice rather than an inflated founder persona.",
+      "expected_output_sections": [
+        "Positioning statement",
+        "Target audience and value proposition",
+        "Proof inventory",
+        "Content pillars and voice guide",
+        "30-day action plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "company-research-brief",
+      "input": "Research this company before my software engineering interview. Use current public sources, prioritize official material, and clearly label your interpretation of the engineering culture as inference.",
+      "expected_output_sections": [
+        "Executive summary",
+        "Company and product overview",
+        "Current verified signals with links and dates",
+        "Role/team implications",
+        "Open questions and risks",
+        "Interview questions to ask"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "inbox-triage",
+      "input": "Triage these three copied recruiter messages. Identify any real deadlines, draft replies for the relevant ones, and flag anything that asks me to share sensitive data unusually early.",
+      "expected_output_sections": [
+        "Message classification",
+        "Priority and rationale",
+        "Explicit deadline or commitment",
+        "Recommended next action",
+        "Draft response when appropriate",
+        "Suspicious signals requiring verification"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-description-writer",
+      "input": "Write a junior data analyst job description from this team brief. Distinguish essential skills from nice-to-haves and do not require an arbitrary degree if equivalent project experience is acceptable.",
+      "expected_output_sections": [
+        "Role purpose and outcomes",
+        "Job description draft",
+        "Required vs preferred criteria",
+        "Interview process outline",
+        "Ambiguities and inclusion review"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "talent-sourcing-strategist",
+      "input": "Develop a sourcing plan for a junior cybersecurity analyst. Include adjacent backgrounds such as IT support and lab projects, and avoid using university prestige as a proxy for ability.",
+      "expected_output_sections": [
+        "Target talent profile",
+        "Competency and evidence signals",
+        "Adjacent talent pools",
+        "Search concepts and channels",
+        "Outreach rationale",
+        "Minimal sourcing log schema"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "candidate-screening-matrix",
+      "input": "Create a structured screening matrix for this customer support analyst role. Use the same five criteria for every applicant and distinguish missing information from a demonstrated gap.",
+      "expected_output_sections": [
+        "Role criteria and scoring anchors",
+        "Candidate evidence matrix",
+        "Evidence source and unknowns",
+        "Reviewer questions",
+        "Human review summary and limitations"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "candidate-outreach-writer",
+      "input": "Write a first message to a software engineer whose public open-source work overlaps with this role. Be transparent about why I reached out and don't imply we have met.",
+      "expected_output_sections": [
+        "Personalization basis",
+        "First outreach draft",
+        "Optional follow-up",
+        "Facts requiring verification",
+        "Stop condition"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "structured-interview-scorecard",
+      "input": "Build a structured scorecard for a junior backend engineer interview. Assess debugging, API fundamentals, collaboration, and learning using observable anchors.",
+      "expected_output_sections": [
+        "Competency map",
+        "Interview questions and probes",
+        "Anchored scoring guide",
+        "Evidence note template",
+        "Panel calibration guidance"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "hiring-debrief",
+      "input": "Summarize these anonymized panel notes against the agreed role criteria. Flag unsupported impressions and do not make the hire/no-hire decision for us.",
+      "expected_output_sections": [
+        "Criteria-based evidence summary",
+        "Areas of agreement and disagreement",
+        "Missing or conflicting evidence",
+        "Follow-up assessment questions",
+        "Human decision notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "employer-branding-writer",
+      "input": "Draft an employer-brand post describing our early-career mentorship program. Use the actual program details I provide; don't claim everyone gets promoted quickly.",
+      "expected_output_sections": [
+        "Audience and message strategy",
+        "Employer-brand narrative or content draft",
+        "Proof points and source owners",
+        "Claims requiring approval",
+        "Consent and publication checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "student-career-launch",
+      "input": "I am a second-year engineering student with two technical projects and no internship. Help me position my LinkedIn profile and build a 6-week internship preparation plan.",
+      "expected_output_sections": [
+        "Early-career role options",
+        "Evidence inventory",
+        "Profile and resume positioning",
+        "Skill/project gap plan",
+        "Internship and networking action plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "fresher-positioning",
+      "input": "Create an entry-level cybersecurity LinkedIn profile for a recent graduate with networking labs, a home lab, and one internship. Keep practical exposure and professional experience distinct.",
+      "expected_output_sections": [
+        "Target role positioning",
+        "Profile summary and headline",
+        "Project/experience bullets",
+        "Evidence gaps",
+        "Entry-level application plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "career-switch-narrative",
+      "input": "Help me move from customer support into business analysis. Map my problem-solving, documentation, and stakeholder work to analyst requirements, and identify what I still need to learn.",
+      "expected_output_sections": [
+        "Transferable skill map",
+        "Transition narrative",
+        "Targeted profile/resume wording",
+        "Skill and evidence gaps",
+        "30/60/90-day proof plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "portfolio-project-story",
+      "input": "Turn my open-source CLI project into a LinkedIn project entry and a resume bullet. Keep the fact that it is a prototype visible and don't invent downloads or users.",
+      "expected_output_sections": [
+        "Project one-line summary",
+        "Problem and approach",
+        "Individual contribution",
+        "Evidence and outcomes",
+        "Trade-offs and limitations",
+        "Platform-specific versions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recommendation-request-coach",
+      "input": "Help me ask my former project lead for a recommendation focused on my collaboration and frontend contribution.",
+      "expected_output_sections": [
+        "Relationship and evidence basis",
+        "Personalized request message",
+        "Optional memory prompts",
+        "Low-pressure follow-up and stop condition"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recommendation-response-helper",
+      "input": "Draft a short reply to this recommendation from a colleague; sound warm but not overly familiar.",
+      "expected_output_sections": [
+        "Thank-you reply or recommendation draft",
+        "Evidence and attribution check",
+        "Facts to confirm"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "profile-language-localizer",
+      "input": "Localize my English LinkedIn About section for professional roles in Germany, keeping the facts and seniority unchanged.",
+      "expected_output_sections": [
+        "Localized headline and About section",
+        "Localized experience and skills wording",
+        "Terminology decisions",
+        "Human review flags"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "public-profile-privacy-audit",
+      "input": "Review this profile text for privacy oversharing while keeping it useful to recruiters.",
+      "expected_output_sections": [
+        "Exposure inventory",
+        "Risk-ranked recommendations",
+        "Manual settings checklist",
+        "Information not needed for the stated goal"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "featured-section-portfolio-curator",
+      "input": "Choose the best three Featured items for my internship profile from these project links and explain the order.",
+      "expected_output_sections": [
+        "Recommended asset order",
+        "Copy-ready titles and descriptions",
+        "Permission/accessibility checks",
+        "Missing portfolio asset suggestions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "open-to-work-visibility-planner",
+      "input": "Help me decide whether to use Open to Work while I am still employed and searching confidentially.",
+      "expected_output_sections": [
+        "Visibility decision matrix",
+        "Role and location preference checklist",
+        "Optional recruiter-facing note",
+        "Quiet-search alternative"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "profile-skills-endorsement-strategy",
+      "input": "Help me prioritize LinkedIn skills for entry-level data analyst roles using my course and project evidence.",
+      "expected_output_sections": [
+        "Prioritized skills inventory",
+        "Evidence map and confidence labels",
+        "Optional endorsement request drafts",
+        "Gaps to build or verify"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "service-page-positioning-builder",
+      "input": "Create a Services Page for my freelance UI design work aimed at early-stage SaaS teams.",
+      "expected_output_sections": [
+        "Service positioning statement",
+        "Service descriptions and scope boundaries",
+        "Proof and FAQ copy",
+        "Client qualification questions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "boolean-job-search-builder",
+      "input": "Build Boolean searches for entry-level cybersecurity analyst roles in Mumbai and remote India, excluding sales jobs.",
+      "expected_output_sections": [
+        "Search objective and surface",
+        "Core Boolean string",
+        "Broad/narrow variants",
+        "Operator explanation and refinement steps"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-alert-search-setup-planner",
+      "input": "Create separate saved-search plans for frontend internships and junior full-stack roles in Mumbai.",
+      "expected_output_sections": [
+        "Saved-search plan",
+        "Search names and filters",
+        "Alert cadence recommendation",
+        "Review and cleanup checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-posting-risk-review",
+      "input": "Review this job posting and recruiter message for scam indicators before I share my details.",
+      "expected_output_sections": [
+        "Posting summary",
+        "Evidence table and red flags",
+        "Unknowns and safe verification actions",
+        "Cautious risk assessment, not a definitive fraud verdict"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-market-intelligence-brief",
+      "input": "Research current entry-level data analyst hiring themes in Mumbai and summarize the skills appearing across recent postings.",
+      "expected_output_sections": [
+        "Executive summary",
+        "Sample scope and date window",
+        "Observed demand themes and evidence",
+        "Caveats, source list, and implications"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "compensation-benchmark-research",
+      "input": "Benchmark a junior product analyst offer in Bengaluru using current public sources; separate base pay from variable components.",
+      "expected_output_sections": [
+        "Comparable-role table with sources/dates",
+        "Indicative range and confidence",
+        "Base/variable/equity breakdown",
+        "Negotiation implications and unknowns"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "application-question-response-coach",
+      "input": "Answer “Why do you want to work here?” using my project background and this job description, within 150 words.",
+      "expected_output_sections": [
+        "Question intent",
+        "Evidence map",
+        "Copy-ready answer within limit",
+        "Unresolved facts or disclosures"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "application-final-review",
+      "input": "Review my application pack for this product analyst role before I submit it.",
+      "expected_output_sections": [
+        "Submission checklist",
+        "Blocking corrections",
+        "Consistency and evidence checks",
+        "Final user approval reminder"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "weekly-job-search-sprint",
+      "input": "Plan a 6-hour job-search sprint this week around college classes and two pending applications.",
+      "expected_output_sections": [
+        "Weekly calendar/block plan",
+        "Priority list and time budget",
+        "Process measures",
+        "Weekly retrospective prompts"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "internship-search-campaign",
+      "input": "Build a 4-week internship search campaign for a second-year IT student with two web projects and no previous internship.",
+      "expected_output_sections": [
+        "Internship target map",
+        "Weekly outreach/application plan",
+        "Evidence pack checklist",
+        "Follow-up schedule"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "campus-placement-interview-prep",
+      "input": "Prepare me for campus placements for entry-level software roles over the next six weeks.",
+      "expected_output_sections": [
+        "Preparation plan by stage",
+        "Topic priority list",
+        "Project explanation prompts",
+        "Mock interview checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "career-fair-networking-followup",
+      "input": "Help me prepare for a university career fair with these five participating employers and draft follow-ups after the event.",
+      "expected_output_sections": [
+        "Employer priority list",
+        "20-second introduction",
+        "Questions by company",
+        "Follow-up drafts tied to conversation notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "informational-interview-coach",
+      "input": "Draft a respectful 15-minute informational interview request to an alum working in product management.",
+      "expected_output_sections": [
+        "Request message",
+        "Conversation agenda",
+        "Five to eight thoughtful questions",
+        "Thank-you and reflection template"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "alumni-networking-planner",
+      "input": "Create an alumni outreach plan to learn about cybersecurity careers from graduates of my college.",
+      "expected_output_sections": [
+        "Alumni segment map",
+        "Search keywords and filters",
+        "Outreach drafts",
+        "Conversation and follow-up tracker fields"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "mentor-relationship-plan",
+      "input": "Help me approach a senior cloud engineer for occasional career guidance without sounding entitled.",
+      "expected_output_sections": [
+        "Mentoring objective",
+        "Mentor fit criteria",
+        "Invitation message",
+        "First-meeting agenda and review cadence"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "career-break-returner-positioning",
+      "input": "Help me explain a two-year career break while positioning my current software testing skills confidently.",
+      "expected_output_sections": [
+        "Optional career-break narrative",
+        "Profile and experience wording",
+        "Skills currency map",
+        "Re-entry action plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "layoff-transition-planner",
+      "input": "I was recently laid off. Help me update LinkedIn and restart my search without sharing confidential company details.",
+      "expected_output_sections": [
+        "Disclosure and profile options",
+        "Priority action checklist",
+        "Search and outreach plan",
+        "Follow-up cadence"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "internal-mobility-strategy",
+      "input": "Help me move from QA analyst to product operations internally using my release coordination experience.",
+      "expected_output_sections": [
+        "Internal target-role map",
+        "Evidence and gap analysis",
+        "Stakeholder conversation plan",
+        "Development proposal"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "career-development-roadmap",
+      "input": "Create a 12-month roadmap from second-year IT student to internship-ready backend developer.",
+      "expected_output_sections": [
+        "Target role profile",
+        "Competency gap map",
+        "30/60/90-day and quarterly milestones",
+        "Evidence and review metrics"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "skills-gap-and-learning-plan",
+      "input": "Compare my current Python, SQL and Excel skills to these analyst jobs and create a 6-week learning plan.",
+      "expected_output_sections": [
+        "Skill gap matrix",
+        "Priority learning sequence",
+        "Practice projects and evidence outputs",
+        "Reassessment checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "promotion-case-builder",
+      "input": "Help me build a promotion case from these project outcomes and feedback against my company's next-level expectations.",
+      "expected_output_sections": [
+        "Promotion evidence matrix",
+        "Impact narrative",
+        "Gaps and corroboration needed",
+        "Manager discussion agenda"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "first-90-days-planner",
+      "input": "Build a 90-day onboarding plan for a new junior product analyst joining a fintech team.",
+      "expected_output_sections": [
+        "30/60/90-day roadmap",
+        "Stakeholder and learning plan",
+        "Early deliverables and measures",
+        "Questions for manager"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "professional-reference-prep",
+      "input": "Help me ask two former teammates to serve as references and prepare a factual briefing note.",
+      "expected_output_sections": [
+        "Reference shortlist criteria",
+        "Permission request",
+        "Reference briefing note",
+        "Thank-you checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "offer-comparison-worksheet",
+      "input": "Compare these two offers using my priorities: learning, manager quality, fixed pay, and location.",
+      "expected_output_sections": [
+        "Side-by-side offer matrix",
+        "User-weighted comparison",
+        "Risks and unknowns",
+        "Clarification questions and decision notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "interview-thank-you-and-followup",
+      "input": "Draft a thank-you to my interviewer, mentioning our discussion of incident response and my project experience.",
+      "expected_output_sections": [
+        "Thank-you message",
+        "Status follow-up if needed",
+        "Timeline and stop condition"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "resignation-and-handover-plan",
+      "input": "Help me draft a professional resignation email and handover plan for my current analyst role.",
+      "expected_output_sections": [
+        "Resignation draft",
+        "Handover checklist",
+        "Workstream transition table",
+        "Questions to verify with HR or contract"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-newsletter-strategy",
+      "input": "Design a monthly LinkedIn newsletter for early-career data analysts focused on practical portfolio skills.",
+      "expected_output_sections": [
+        "Newsletter promise and audience",
+        "Cadence and issue architecture",
+        "4–8 issue editorial map",
+        "Launch checklist and sample issue outline"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-longform-article-writer",
+      "input": "Turn my notes on evaluation of small language models into a sourced LinkedIn article for engineering managers.",
+      "expected_output_sections": [
+        "Article thesis and outline",
+        "Draft article",
+        "Sources and claims ledger",
+        "Headline options and review notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "document-carousel-storyboard",
+      "input": "Create a 7-slide carousel explaining how students can build a credible software project portfolio.",
+      "expected_output_sections": [
+        "Slide-by-slide storyboard",
+        "On-slide copy and visual direction",
+        "Cover options and CTA",
+        "Accessibility and source checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-event-strategy",
+      "input": "Plan a LinkedIn webinar for students about building a project portfolio for internships.",
+      "expected_output_sections": [
+        "Event positioning and description",
+        "Agenda and speaker copy",
+        "Promotion timeline",
+        "Moderation, accessibility and follow-up plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-group-community-playbook",
+      "input": "Create a community playbook for graduates interested in open-source software careers.",
+      "expected_output_sections": [
+        "Community charter",
+        "Rules and moderation policy",
+        "4-week discussion calendar",
+        "Welcome and moderation templates"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "company-page-audit",
+      "input": "Audit our company LinkedIn Page for customer clarity and employer-brand credibility using this text and website.",
+      "expected_output_sections": [
+        "Page completeness review",
+        "Message and consistency audit",
+        "Priority fixes",
+        "Evidence and admin-action checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "company-page-editorial-planner",
+      "input": "Build a month of LinkedIn Page content for a B2B SaaS company launching a new reporting feature.",
+      "expected_output_sections": [
+        "Editorial pillars",
+        "4-week or 12-week content calendar",
+        "Asset and owner checklist",
+        "Review and learning loop"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "page-analytics-diagnostic",
+      "input": "Analyze these LinkedIn Page analytics for the last quarter and identify which content themes deserve follow-up.",
+      "expected_output_sections": [
+        "Metric definitions and data-quality notes",
+        "Trend summary",
+        "Content/audience hypotheses",
+        "Recommended controlled experiments"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "employee-advocacy-program",
+      "input": "Design an employee advocacy program for a 100-person technology company without making employees post mandatory promotional content.",
+      "expected_output_sections": [
+        "Program charter",
+        "Participation guidelines",
+        "Content starter pack",
+        "Measurement and feedback plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "executive-thought-leadership",
+      "input": "Create a thought-leadership plan for a CTO discussing responsible AI adoption, based only on these approved facts.",
+      "expected_output_sections": [
+        "Positioning and audience",
+        "Thought-leadership pillars",
+        "Draft content themes and sample post",
+        "Evidence and approval checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "founder-brand-strategy",
+      "input": "Build a LinkedIn founder-brand strategy for a bootstrapped SaaS founder building workflow tools for small businesses.",
+      "expected_output_sections": [
+        "Founder positioning statement",
+        "Profile refinement priorities",
+        "Content pillars and sample topics",
+        "Trust and disclosure checks"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "community-comment-and-crisis-response",
+      "input": "Draft a professional response to this customer complaint without disclosing private account information.",
+      "expected_output_sections": [
+        "Issue classification and risk level",
+        "Proposed public reply or no-reply rationale",
+        "Escalation owner and response plan",
+        "Facts requiring verification"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "client-proof-and-case-study-writer",
+      "input": "Turn this completed web-design project into a LinkedIn case study, using only approved metrics and anonymizing the client.",
+      "expected_output_sections": [
+        "Case-study outline",
+        "Draft LinkedIn case study",
+        "Claim/metric source ledger",
+        "Permission and redaction checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-profile-conversion-path",
+      "input": "Improve my LinkedIn profile so potential consulting clients know what to do next without sounding salesy.",
+      "expected_output_sections": [
+        "Conversion path map",
+        "Section-level CTA recommendations",
+        "Copy-ready call to action",
+        "Follow-up capacity checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "sales-navigator-query-planner",
+      "input": "Build a Sales Navigator search plan for operations leaders at mid-market logistics companies in India.",
+      "expected_output_sections": [
+        "ICP filter matrix",
+        "Lead and account query plan",
+        "Boolean variants and limitations",
+        "Relevance sampling checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "account-intelligence-brief",
+      "input": "Prepare an account brief for a first conversation with an Indian retail technology company.",
+      "expected_output_sections": [
+        "Account snapshot",
+        "Verified facts with dates/URLs",
+        "Hypotheses and confidence",
+        "Stakeholder map and discovery questions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "social-selling-account-plan",
+      "input": "Plan a 30-day social-selling approach for a SaaS product targeting HR operations teams.",
+      "expected_output_sections": [
+        "Account engagement thesis",
+        "Stakeholder role map",
+        "Value-first engagement plan",
+        "Manual activity and learning log"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "b2b-prospecting-sequence",
+      "input": "Draft a respectful message to an operations director about our order reconciliation software using this public company announcement.",
+      "expected_output_sections": [
+        "Personalization evidence note",
+        "Initial message",
+        "Up to two value-adding follow-ups",
+        "Stop/opt-out rule"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "lead-qualification-discovery",
+      "input": "Prepare discovery questions for a conversation with a small retailer considering inventory management software.",
+      "expected_output_sections": [
+        "Discovery agenda",
+        "Open questions by theme",
+        "Qualification evidence checklist",
+        "Next-step options and disqualifiers"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "partnership-outreach-plan",
+      "input": "Create a partnership outreach plan between an edtech startup and university coding clubs.",
+      "expected_output_sections": [
+        "Partner fit hypothesis",
+        "Stakeholder roles",
+        "Outreach message",
+        "Pilot concept and success measures"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "service-business-lead-conversion",
+      "input": "A prospect messaged me asking for a website redesign. Help me respond and qualify the project before quoting.",
+      "expected_output_sections": [
+        "Lead triage summary",
+        "Reply draft",
+        "Discovery questions",
+        "Proposal skeleton and follow-up plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "customer-advocacy-reference-request",
+      "input": "Draft a polite request for a customer to approve a short public testimonial about our implementation support.",
+      "expected_output_sections": [
+        "Permission request",
+        "Optional testimonial prompts",
+        "Disclosure/approval checklist",
+        "Alternative private reference option"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "sales-meeting-followup",
+      "input": "Turn these discovery call notes into a clear follow-up with agreed actions; do not add promises we did not make.",
+      "expected_output_sections": [
+        "Fact-checked meeting summary",
+        "Agreed action register",
+        "Open questions and risks",
+        "Follow-up message"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiter-role-intake",
+      "input": "Run a role-intake workshop for a junior backend engineer role; flag missing compensation and on-call expectations.",
+      "expected_output_sections": [
+        "Role intake brief",
+        "Essential and preferred criteria",
+        "Open decisions and owners",
+        "Hiring-process assumptions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "competency-framework-designer",
+      "input": "Design a competency framework for a customer success associate using these role responsibilities.",
+      "expected_output_sections": [
+        "Competency framework",
+        "Behavioural evidence anchors",
+        "Assessment method per competency",
+        "Gaps and validation questions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "talent-boolean-search-builder",
+      "input": "Build search strings for platform engineers with Kubernetes and Terraform experience, including adjacent job titles.",
+      "expected_output_sections": [
+        "Search concept map",
+        "Boolean query variants",
+        "Inclusion/exclusion logic",
+        "Search validation checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "talent-market-map",
+      "input": "Prepare a talent market map for senior data platform engineers in India, using permitted public research only.",
+      "expected_output_sections": [
+        "Market map scope and method",
+        "Role/title and sector clusters",
+        "Talent-pool hypotheses",
+        "Source/sample limitations and next steps"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "executive-search-outreach-plan",
+      "input": "Prepare an executive search outreach note for a VP Engineering opportunity without revealing the client name at first contact.",
+      "expected_output_sections": [
+        "Executive role value proposition",
+        "Target profile criteria",
+        "Discreet outreach draft",
+        "Follow-up and confidentiality rules"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiter-pipeline-review",
+      "input": "Analyze this anonymized recruiting pipeline and identify where candidates are waiting too long.",
+      "expected_output_sections": [
+        "Funnel snapshot and definitions",
+        "Bottleneck hypotheses",
+        "Candidate-experience risks",
+        "Action register and data gaps"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiter-communication-calendar",
+      "input": "Create a communication plan for a three-stage engineering interview process with a one-week target turnaround.",
+      "expected_output_sections": [
+        "Communication journey map",
+        "Stage-by-stage calendar",
+        "Message templates",
+        "SLA/ownership and escalation checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "interview-plan-and-panel-designer",
+      "input": "Design a four-stage structured interview plan for a mid-level product designer role.",
+      "expected_output_sections": [
+        "Interview loop and stage objectives",
+        "Question bank and probes",
+        "Interviewer assignment matrix",
+        "Candidate preparation and accessibility notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "work-sample-assessment-designer",
+      "input": "Design a 60-minute work sample for a junior data analyst role using synthetic data only.",
+      "expected_output_sections": [
+        "Work sample brief",
+        "Candidate instructions",
+        "Rubric and anchor examples",
+        "Accessibility, time and IP safeguards"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "interview-panel-calibration",
+      "input": "Help calibrate a panel that interprets “strategic thinking” differently for a senior analyst role.",
+      "expected_output_sections": [
+        "Calibration agenda",
+        "Anchor examples",
+        "Ambiguity and bias checks",
+        "Debrief decision record template"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "candidate-experience-journey",
+      "input": "Audit our recruitment journey for a graduate engineering role and recommend improvements.",
+      "expected_output_sections": [
+        "Candidate journey map",
+        "Friction points and priority fixes",
+        "Communication standards",
+        "Candidate feedback loop"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "candidate-rejection-and-closure",
+      "input": "Write a respectful rejection after the final interview; provide concise role-related feedback that we can substantiate.",
+      "expected_output_sections": [
+        "Candidate message",
+        "Feedback option if permitted",
+        "Internal closure checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "offer-brief-and-approval",
+      "input": "Prepare an offer approval brief for a software engineer using these approved compensation components.",
+      "expected_output_sections": [
+        "Internal offer brief",
+        "Compensation component table",
+        "Approval checklist",
+        "Candidate offer discussion notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "reference-check-planner",
+      "input": "Design a reference-check script for a team lead role focused on coaching and delivery accountability.",
+      "expected_output_sections": [
+        "Reference request and consent checklist",
+        "Standard questions",
+        "Evidence capture form",
+        "Limitations and escalation notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "hiring-funnel-diagnostic",
+      "input": "Diagnose these anonymized hiring funnel numbers for our graduate software roles.",
+      "expected_output_sections": [
+        "Data-quality review",
+        "Funnel conversion and aging table",
+        "Bottleneck hypotheses",
+        "Experiment and owner list"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiter-capacity-prioritization",
+      "input": "Help prioritize these eight open roles across two recruiters with different sourcing workloads.",
+      "expected_output_sections": [
+        "Requisition priority matrix",
+        "Capacity and dependency view",
+        "Risks and trade-offs",
+        "Escalation recommendations"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "talent-community-nurture",
+      "input": "Design a quarterly nurture plan for an opt-in community of data engineering professionals.",
+      "expected_output_sections": [
+        "Community value proposition",
+        "Content and event cadence",
+        "Consent and preference workflow",
+        "Feedback and exit process"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruitment-campaign-planner",
+      "input": "Plan a campus hiring campaign for entry-level cloud engineering roles across three universities.",
+      "expected_output_sections": [
+        "Campaign brief",
+        "Audience and channel plan",
+        "Asset calendar and ownership",
+        "Outcome measures and review cadence"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "employer-page-and-reputation-audit",
+      "input": "Audit our employer brand across LinkedIn Page and careers page for a graduate hiring campaign.",
+      "expected_output_sections": [
+        "Employer presence audit",
+        "Consistency and trust gaps",
+        "Content and Page recommendations",
+        "Claims requiring validation"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruitment-employee-advocacy",
+      "input": "Design a voluntary employee advocacy campaign for a graduate engineering hiring event.",
+      "expected_output_sections": [
+        "Advocacy campaign brief",
+        "Employee participation options",
+        "Fact pack and optional prompts",
+        "Consent and disclosure checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "onboarding-handoff",
+      "input": "Create a minimal onboarding handoff for a new analyst, excluding interview notes that the hiring manager does not need.",
+      "expected_output_sections": [
+        "Minimal handoff summary",
+        "First-day readiness checklist",
+        "Open commitments and owners",
+        "Data excluded from transfer"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "internal-talent-mobility-map",
+      "input": "Create an internal mobility map between technical support, QA, and product operations roles using this anonymized skills framework.",
+      "expected_output_sections": [
+        "Role adjacency map",
+        "Skill bridge matrix",
+        "Development pathways",
+        "Data governance and validation questions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "hiring-privacy-governance",
+      "input": "Review our candidate data workflow for unnecessary collection and unclear retention responsibilities.",
+      "expected_output_sections": [
+        "Candidate-data inventory",
+        "Access and purpose map",
+        "Risk and minimization recommendations",
+        "Policy owner questions"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "inclusive-accessible-hiring-review",
+      "input": "Review this graduate developer job description and interview loop for avoidable barriers.",
+      "expected_output_sections": [
+        "Barrier review",
+        "Recommended inclusive wording",
+        "Process accessibility checklist",
+        "Escalation points"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiting-retrospective",
+      "input": "Run a retrospective for our last campus hiring process using these anonymized figures and feedback themes.",
+      "expected_output_sections": [
+        "Retrospective summary",
+        "What worked and what did not",
+        "Root-cause hypotheses and confidence",
+        "Improvement actions and measures"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "hiring-manager-intake-alignment",
+      "input": "Prepare an intake meeting agenda to align a hiring manager and recruiters on an entry-level analyst vacancy.",
+      "expected_output_sections": [
+        "Alignment agenda",
+        "Agreed role scorecard",
+        "Decision and owner log",
+        "Sourcing-ready confirmation checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "candidate-pool-reengagement",
+      "input": "Draft a respectful re-engagement note for a previous finalist about a new role that fits their stated interests.",
+      "expected_output_sections": [
+        "Re-engagement eligibility checklist",
+        "Personalized message draft",
+        "Updated role relevance note",
+        "Stop and retention rules"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruitment-process-scorecard",
+      "input": "Create a recruiting process scorecard covering time in stage, candidate updates, feedback completion and offer clarity.",
+      "expected_output_sections": [
+        "Metric dictionary",
+        "Process scorecard",
+        "Data ownership and limits",
+        "Review and action protocol"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "employer-value-proposition-editor",
+      "input": "Develop an evidence-based EVP for a growing engineering organization using these employee survey themes and actual benefits.",
+      "expected_output_sections": [
+        "EVP positioning statement",
+        "Evidence-backed pillars",
+        "Proof and caveat ledger",
+        "Copy for Page or careers content"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "job-ad-accessibility-rewriter",
+      "input": "Rewrite this job post for a junior software tester to make it clearer and reduce unnecessary degree requirements.",
+      "expected_output_sections": [
+        "Revised job post",
+        "Essential/preferred criteria split",
+        "Missing logistics checklist",
+        "Accessibility review notes"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiter-source-effectiveness-review",
+      "input": "Compare LinkedIn, referrals and campus outreach as channels using this anonymized quarterly funnel.",
+      "expected_output_sections": [
+        "Source metric table",
+        "Data-quality caveats",
+        "Channel hypotheses",
+        "Test plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "talent-brand-content-writer",
+      "input": "Write a LinkedIn post introducing our engineering apprenticeship program using only these confirmed program details.",
+      "expected_output_sections": [
+        "Content brief",
+        "LinkedIn post draft",
+        "Source and consent checklist",
+        "Candidate CTA"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "recruiting-agency-client-intake",
+      "input": "Prepare an intake checklist for an agency taking on a confidential senior engineering search.",
+      "expected_output_sections": [
+        "Client intake summary",
+        "Search mandate and success definition",
+        "Client questions and unresolved terms",
+        "Delivery and communication plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-ads-objective-and-budget-planner",
+      "input": "Plan a small LinkedIn Campaign Manager test for a B2B webinar. Recommend the objective, format, budget assumptions and what must be measured.",
+      "expected_output_sections": [
+        "Campaign brief and funnel stage",
+        "Recommended objective with rationale",
+        "Budget and flighting assumptions",
+        "Test plan and success metrics"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-audience-targeting-review",
+      "input": "Review this proposed LinkedIn Ads audience for a B2B software campaign. Flag irrelevant or sensitive targeting and suggest safer filters.",
+      "expected_output_sections": [
+        "Audience definition",
+        "Filter-by-filter rationale",
+        "Risk and exclusion review",
+        "Manual pre-launch checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-lead-gen-form-designer",
+      "input": "Create a Lead Gen Form for a downloadable B2B cybersecurity checklist. Keep fields minimal and make the value exchange clear.",
+      "expected_output_sections": [
+        "Form proposition and field plan",
+        "Intro and confirmation copy",
+        "Privacy/consent review questions",
+        "Lead routing and response SLA"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-ads-creative-brief",
+      "input": "Prepare three LinkedIn ad creative concepts for a B2B webinar about supply-chain analytics, using only these approved facts.",
+      "expected_output_sections": [
+        "Creative strategy and message hierarchy",
+        "Format-specific copy and directions",
+        "CTA variants",
+        "Test matrix and approval checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-campaign-performance-diagnostic",
+      "input": "Analyze this LinkedIn campaign export. Calculate CTR and cost per qualified lead, note the attribution limitations, and suggest the next experiment.",
+      "expected_output_sections": [
+        "Data and metric dictionary",
+        "Performance summary with calculations",
+        "Funnel and lead-quality interpretation",
+        "Hypotheses and next experiment"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-job-ad-campaign-planner",
+      "input": "Plan a LinkedIn job promotion campaign for graduate software engineers. Use only confirmed role details and keep all selection decisions human-led.",
+      "expected_output_sections": [
+        "Hiring campaign brief",
+        "Role and audience rationale",
+        "Creative and destination plan",
+        "Budget assumptions and process metrics"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-conversion-tracking-readiness",
+      "input": "Create a measurement plan for a LinkedIn ad that sends visitors to a product demo request form.",
+      "expected_output_sections": [
+        "Conversion measurement specification",
+        "Event and parameter map",
+        "Consent/privacy questions",
+        "Technical validation checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-showcase-page-strategy",
+      "input": "Should we create a Showcase Page for our enterprise product or keep the content on the parent Company Page? Evaluate the trade-offs.",
+      "expected_output_sections": [
+        "Page architecture recommendation",
+        "Audience and editorial purpose",
+        "Ownership and governance",
+        "Success and consolidation criteria"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-product-page-positioning",
+      "input": "Create Product Page copy for our inventory management SaaS. Keep roadmap features separate from currently available features.",
+      "expected_output_sections": [
+        "Product positioning statement",
+        "Feature and benefit copy",
+        "Proof and screenshot checklist",
+        "FAQ and CTA"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-career-page-content-strategy",
+      "input": "Plan Career Page content for a company hiring junior engineers and product analysts across two locations.",
+      "expected_output_sections": [
+        "Career Page content pillars",
+        "Candidate journey map",
+        "Story and asset plan",
+        "Claims, consent and refresh checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-university-page-alumni-strategy",
+      "input": "Create an alumni engagement plan for a university engineering department using LinkedIn, without scraping alumni contact lists.",
+      "expected_output_sections": [
+        "University Page content plan",
+        "Alumni engagement pathways",
+        "Event and mentorship ideas",
+        "Consent and measurement checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-learning-path-curator",
+      "input": "Create a six-week learning path for a beginner preparing for junior data analyst roles using LinkedIn Learning where available.",
+      "expected_output_sections": [
+        "Learning objectives",
+        "Ordered learning path",
+        "Practice and evidence tasks",
+        "Access and currency caveats"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-learning-program-designer",
+      "input": "Design a LinkedIn Learning program for onboarding analysts to SQL, dashboards and stakeholder communication.",
+      "expected_output_sections": [
+        "Learning program blueprint",
+        "Course-to-competency map",
+        "Cohort schedule and practice tasks",
+        "Access and evaluation plan"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-sponsored-message-copy-review",
+      "input": "Review this paid LinkedIn message ad for a webinar invitation. Make it clear and not manipulative.",
+      "expected_output_sections": [
+        "Message copy and CTA variants",
+        "Personalization rationale",
+        "Claims and disclosures checklist",
+        "Review items for platform policy"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    },
+    {
+      "skill": "linkedin-learning-creator-content-plan",
+      "input": "Create a beginner course outline about practical Excel analysis for early-career professionals. Flag assets or examples that need licensing review.",
+      "expected_output_sections": [
+        "Course concept and audience",
+        "Learning outcomes and outline",
+        "Practice and assessment plan",
+        "Rights, review and maintenance checklist"
+      ],
+      "must_not": [
+        "invent facts, metrics, qualifications, relationships, or outcomes",
+        "claim an external LinkedIn action was completed",
+        "expose unnecessary personal or candidate data"
+      ],
+      "notes": "Illustrative structural evaluation case; not a benchmark result."
+    }
+  ]
+}

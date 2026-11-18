@@ -1,7 +1,17 @@
-# Local/private working files
+# Local user data: never commit personal or candidate information
+*.resume
+*.cv
+private/
+local-data/
+applications-private.csv
+candidate-data.csv
+candidate-notes/
+voice-profile-private.md
 .env
 .env.*
 !.env.example
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .DS_Store
+Thumbs.db

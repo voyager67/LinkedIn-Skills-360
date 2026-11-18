@@ -1,0 +1,1271 @@
+[
+  {
+    "slug": "account-intelligence-brief",
+    "title": "Account Intelligence Brief",
+    "description": "the user wants to prepare a public-source account brief before a B2B conversation",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/account-intelligence-brief/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/account-intelligence-brief/SKILL.md"
+  },
+  {
+    "slug": "alumni-networking-planner",
+    "title": "Alumni Networking Planner",
+    "description": "the user wants to identify and approach alumni for career learning, mentorship, or opportunity discovery",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/alumni-networking-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/alumni-networking-planner/SKILL.md"
+  },
+  {
+    "slug": "application-final-review",
+    "title": "Application Final Review",
+    "description": "the user wants a pre-submit check of their resume, cover letter, profile links, or application form",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/application-final-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/application-final-review/SKILL.md"
+  },
+  {
+    "slug": "application-question-response-coach",
+    "title": "Job Application Question Coach",
+    "description": "the user wants to answer application form questions about motivation, experience, eligibility, or skills",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/application-question-response-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/application-question-response-coach/SKILL.md"
+  },
+  {
+    "slug": "application-tracker",
+    "title": "Job Application Tracker",
+    "description": "the user wants to create, update, summarize, or plan follow-ups for a job application pipeline",
+    "agent": "Job Hunter",
+    "category": "Search and applications",
+    "path": "../skills/application-tracker/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/application-tracker/SKILL.md"
+  },
+  {
+    "slug": "b2b-prospecting-sequence",
+    "title": "B2B Prospecting Message Sequence",
+    "description": "the user wants a short, personalized B2B LinkedIn outreach sequence to a business contact",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/b2b-prospecting-sequence/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/b2b-prospecting-sequence/SKILL.md"
+  },
+  {
+    "slug": "boolean-job-search-builder",
+    "title": "Boolean Job Search Builder",
+    "description": "the user wants targeted search strings for LinkedIn jobs, people, companies, or external job boards",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/boolean-job-search-builder/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/boolean-job-search-builder/SKILL.md"
+  },
+  {
+    "slug": "campus-placement-interview-prep",
+    "title": "Campus Placement Preparation Coach",
+    "description": "a student wants a structured plan for campus placement tests, interviews, group discussions, or employer research",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/campus-placement-interview-prep/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/campus-placement-interview-prep/SKILL.md"
+  },
+  {
+    "slug": "candidate-experience-journey",
+    "title": "Candidate Experience Journey Designer",
+    "description": "a recruiter wants to improve the candidate experience from first contact through interview, decision, and closure",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/candidate-experience-journey/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/candidate-experience-journey/SKILL.md"
+  },
+  {
+    "slug": "candidate-outreach-writer",
+    "title": "Candidate Outreach Writer",
+    "description": "the user wants a respectful, personalized candidate message for an open role or talent conversation",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/candidate-outreach-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/candidate-outreach-writer/SKILL.md"
+  },
+  {
+    "slug": "candidate-pool-reengagement",
+    "title": "Candidate Pool Re-engagement Planner",
+    "description": "a recruiter wants to reconnect with past applicants or silver-medalist candidates in a relevant, consent-aware way",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/candidate-pool-reengagement/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/candidate-pool-reengagement/SKILL.md"
+  },
+  {
+    "slug": "candidate-rejection-and-closure",
+    "title": "Candidate Rejection and Closure Writer",
+    "description": "a recruiter wants to write a respectful rejection, hold, withdrawal, or process-closure communication",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/candidate-rejection-and-closure/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/candidate-rejection-and-closure/SKILL.md"
+  },
+  {
+    "slug": "candidate-screening-matrix",
+    "title": "Candidate Screening Matrix",
+    "description": "the user wants to build or apply a structured, job-related candidate screening matrix for human review",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/candidate-screening-matrix/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/candidate-screening-matrix/SKILL.md"
+  },
+  {
+    "slug": "career-break-returner-positioning",
+    "title": "Career Break and Returner Positioning",
+    "description": "the user wants to explain a career break and position their current readiness for work",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/career-break-returner-positioning/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/career-break-returner-positioning/SKILL.md"
+  },
+  {
+    "slug": "career-development-roadmap",
+    "title": "Career Development Roadmap",
+    "description": "the user wants a longer-term career roadmap with milestones, evidence projects, learning, and networking",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/career-development-roadmap/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/career-development-roadmap/SKILL.md"
+  },
+  {
+    "slug": "career-fair-networking-followup",
+    "title": "Career Fair Networking and Follow-up",
+    "description": "the user wants to prepare for a LinkedIn-connected career fair, employer event, or recruiting expo",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/career-fair-networking-followup/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/career-fair-networking-followup/SKILL.md"
+  },
+  {
+    "slug": "career-switch-narrative",
+    "title": "Career Switch Narrative Builder",
+    "description": "the user wants to explain a career change, translate transferable skills, or reposition their experience for a different industry or role",
+    "agent": "Career Transition Advisor",
+    "category": "Career-stage variants",
+    "path": "../skills/career-switch-narrative/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/career-switch-narrative/SKILL.md"
+  },
+  {
+    "slug": "client-proof-and-case-study-writer",
+    "title": "Client Proof and Case Study Writer",
+    "description": "a freelancer, consultant, or company wants to turn client work into a credible LinkedIn case study",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/client-proof-and-case-study-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/client-proof-and-case-study-writer/SKILL.md"
+  },
+  {
+    "slug": "cold-outreach-writer",
+    "title": "Professional Cold Outreach Writer",
+    "description": "the user wants to write a first professional message to someone they do not know, including a hiring manager, practitioner, founder, or potential collaborator",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/cold-outreach-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/cold-outreach-writer/SKILL.md"
+  },
+  {
+    "slug": "comment-engagement-coach",
+    "title": "Thoughtful Comment and Engagement Coach",
+    "description": "the user wants to write a substantive LinkedIn comment or reply to a post they have read",
+    "agent": "Content Strategist",
+    "category": "Brand and content",
+    "path": "../skills/comment-engagement-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/comment-engagement-coach/SKILL.md"
+  },
+  {
+    "slug": "community-comment-and-crisis-response",
+    "title": "Community Comment and Reputation Response",
+    "description": "a professional or Page owner wants to respond to criticism, misinformation, conflict, or a sensitive public comment on LinkedIn",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/community-comment-and-crisis-response/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/community-comment-and-crisis-response/SKILL.md"
+  },
+  {
+    "slug": "company-page-audit",
+    "title": "LinkedIn Company Page Audit",
+    "description": "a page admin or marketer wants to assess the clarity, completeness, credibility, and usefulness of a LinkedIn Company Page",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/company-page-audit/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/company-page-audit/SKILL.md"
+  },
+  {
+    "slug": "company-page-editorial-planner",
+    "title": "Company Page Editorial Planner",
+    "description": "a company marketer or Page admin wants an evidence-led LinkedIn content calendar",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/company-page-editorial-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/company-page-editorial-planner/SKILL.md"
+  },
+  {
+    "slug": "company-research-brief",
+    "title": "Company Research Brief",
+    "description": "the user wants to research an employer, team, product, culture, business model, or public company context before applying or interviewing",
+    "agent": "Research Analyst",
+    "category": "Interview and offers",
+    "path": "../skills/company-research-brief/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/company-research-brief/SKILL.md"
+  },
+  {
+    "slug": "compensation-benchmark-research",
+    "title": "Compensation Benchmark Research",
+    "description": "the user wants to research salary ranges for a role, location, seniority, or industry before negotiation",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/compensation-benchmark-research/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/compensation-benchmark-research/SKILL.md"
+  },
+  {
+    "slug": "competency-framework-designer",
+    "title": "Job-related Competency Framework Designer",
+    "description": "the user wants to define competencies and observable evidence for a role or hiring process",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/competency-framework-designer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/competency-framework-designer/SKILL.md"
+  },
+  {
+    "slug": "connection-request-writer",
+    "title": "LinkedIn Connection Request Writer",
+    "description": "the user wants a personalized LinkedIn connection note or short introduction to a person they have a legitimate reason to contact",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/connection-request-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/connection-request-writer/SKILL.md"
+  },
+  {
+    "slug": "content-calendar-planner",
+    "title": "LinkedIn Content Calendar Planner",
+    "description": "the user wants a LinkedIn content plan, posting calendar, content pillars, or repeatable editorial workflow",
+    "agent": "Content Strategist",
+    "category": "Brand and content",
+    "path": "../skills/content-calendar-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/content-calendar-planner/SKILL.md"
+  },
+  {
+    "slug": "cover-letter-writer",
+    "title": "Cover Letter Writer",
+    "description": "the user asks for a tailored cover letter or concise application letter for a specific job",
+    "agent": "Outreach Writer",
+    "category": "Search and applications",
+    "path": "../skills/cover-letter-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/cover-letter-writer/SKILL.md"
+  },
+  {
+    "slug": "customer-advocacy-reference-request",
+    "title": "Customer Advocacy and Reference Request",
+    "description": "a professional wants to request a customer reference, testimonial, or public endorsement based on real delivery",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/customer-advocacy-reference-request/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/customer-advocacy-reference-request/SKILL.md"
+  },
+  {
+    "slug": "document-carousel-storyboard",
+    "title": "Document Carousel Storyboard",
+    "description": "the user wants a LinkedIn document/carousel outline that teaches a concept or explains a project",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/document-carousel-storyboard/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/document-carousel-storyboard/SKILL.md"
+  },
+  {
+    "slug": "employee-advocacy-program",
+    "title": "Employee Advocacy Program Designer",
+    "description": "a company wants a voluntary and credible employee advocacy program for LinkedIn",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/employee-advocacy-program/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/employee-advocacy-program/SKILL.md"
+  },
+  {
+    "slug": "employer-branding-writer",
+    "title": "Employer Branding Writer",
+    "description": "the user wants authentic employer-brand content, a careers-page narrative, employee story, or candidate-facing overview",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/employer-branding-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/employer-branding-writer/SKILL.md"
+  },
+  {
+    "slug": "employer-page-and-reputation-audit",
+    "title": "Employer Page and Reputation Audit",
+    "description": "an employer brand or talent team wants to audit its LinkedIn company presence and public candidate-facing credibility",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/employer-page-and-reputation-audit/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/employer-page-and-reputation-audit/SKILL.md"
+  },
+  {
+    "slug": "employer-value-proposition-editor",
+    "title": "Employer Value Proposition Editor",
+    "description": "an organization wants to articulate an employer value proposition using credible employee and work evidence",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/employer-value-proposition-editor/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/employer-value-proposition-editor/SKILL.md"
+  },
+  {
+    "slug": "executive-search-outreach-plan",
+    "title": "Executive Search Outreach Planner",
+    "description": "a recruiter wants a discreet, high-context outreach plan for senior or executive talent",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/executive-search-outreach-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/executive-search-outreach-plan/SKILL.md"
+  },
+  {
+    "slug": "executive-thought-leadership",
+    "title": "Executive Thought Leadership Strategist",
+    "description": "an executive wants to communicate expertise and organizational perspective through credible LinkedIn content",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/executive-thought-leadership/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/executive-thought-leadership/SKILL.md"
+  },
+  {
+    "slug": "experience-proof-writer",
+    "title": "Experience and Achievement Writer",
+    "description": "the user wants to rewrite LinkedIn experience entries, project descriptions, internships, volunteering, or achievement bullets",
+    "agent": "Profile Optimizer",
+    "category": "Profile",
+    "path": "../skills/experience-proof-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/experience-proof-writer/SKILL.md"
+  },
+  {
+    "slug": "featured-section-portfolio-curator",
+    "title": "Featured Section and Portfolio Curator",
+    "description": "the user wants to choose, order, or write descriptions for Featured-section links, projects, articles, or portfolio assets",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/featured-section-portfolio-curator/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/featured-section-portfolio-curator/SKILL.md"
+  },
+  {
+    "slug": "first-90-days-planner",
+    "title": "First 90 Days Planner",
+    "description": "the user is starting a new job or transitioning into a role and wants a structured first-90-days plan",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/first-90-days-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/first-90-days-planner/SKILL.md"
+  },
+  {
+    "slug": "follow-up-planner",
+    "title": "Networking and Application Follow-up Planner",
+    "description": "the user wants to plan a follow-up after an application, networking conversation, referral request, recruiter exchange, or interview",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/follow-up-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/follow-up-planner/SKILL.md"
+  },
+  {
+    "slug": "founder-brand-strategy",
+    "title": "Founder Brand Strategy",
+    "description": "a founder wants to align their LinkedIn profile and content with company mission and founder expertise",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/founder-brand-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/founder-brand-strategy/SKILL.md"
+  },
+  {
+    "slug": "fresher-positioning",
+    "title": "Fresher and Recent Graduate Positioning",
+    "description": "the user is a fresher or recent graduate and wants to position themselves for entry-level roles without extensive professional experience",
+    "agent": "Career Transition Advisor",
+    "category": "Career-stage variants",
+    "path": "../skills/fresher-positioning/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/fresher-positioning/SKILL.md"
+  },
+  {
+    "slug": "headline-about-optimizer",
+    "title": "Headline and About Optimizer",
+    "description": "the user wants a LinkedIn headline, About section, positioning statement, or rewrite of profile introduction",
+    "agent": "Profile Optimizer",
+    "category": "Profile",
+    "path": "../skills/headline-about-optimizer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/headline-about-optimizer/SKILL.md"
+  },
+  {
+    "slug": "hiring-debrief",
+    "title": "Hiring Debrief Facilitator",
+    "description": "the user wants to structure a hiring debrief, synthesize interview feedback, or identify evidence and unresolved questions across a panel",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/hiring-debrief/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/hiring-debrief/SKILL.md"
+  },
+  {
+    "slug": "hiring-funnel-diagnostic",
+    "title": "Hiring Funnel Diagnostic",
+    "description": "a talent leader wants to diagnose hiring funnel data across role, stage, source, or time period",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/hiring-funnel-diagnostic/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/hiring-funnel-diagnostic/SKILL.md"
+  },
+  {
+    "slug": "hiring-manager-intake-alignment",
+    "title": "Hiring Manager Intake Alignment",
+    "description": "a recruiter wants to align a hiring manager and interview team on role scope, criteria, process, and decision ownership",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/hiring-manager-intake-alignment/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/hiring-manager-intake-alignment/SKILL.md"
+  },
+  {
+    "slug": "hiring-privacy-governance",
+    "title": "Hiring Data Privacy and Retention Review",
+    "description": "a recruiting team wants to review what candidate data it collects, accesses, stores, shares, or retains",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/hiring-privacy-governance/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/hiring-privacy-governance/SKILL.md"
+  },
+  {
+    "slug": "inbox-triage",
+    "title": "Professional Inbox Triage",
+    "description": "the user wants to classify or prioritize copied recruiter, networking, referral, or professional messages and plan replies",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/inbox-triage/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/inbox-triage/SKILL.md"
+  },
+  {
+    "slug": "inclusive-accessible-hiring-review",
+    "title": "Inclusive and Accessible Hiring Review",
+    "description": "a hiring team wants to review job ads, interview stages, or assessments for unnecessary barriers and accessibility",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/inclusive-accessible-hiring-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/inclusive-accessible-hiring-review/SKILL.md"
+  },
+  {
+    "slug": "informational-interview-coach",
+    "title": "Informational Interview Coach",
+    "description": "the user wants to request or conduct an informational conversation to learn about a role, industry, or company",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/informational-interview-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/informational-interview-coach/SKILL.md"
+  },
+  {
+    "slug": "internal-mobility-strategy",
+    "title": "Internal Mobility Strategy",
+    "description": "the user wants to use LinkedIn and professional materials to explore a role change inside their current organization",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/internal-mobility-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/internal-mobility-strategy/SKILL.md"
+  },
+  {
+    "slug": "internal-talent-mobility-map",
+    "title": "Internal Talent Mobility Map",
+    "description": "an HR or talent team wants to map internal role pathways and adjacent skills for employee mobility",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/internal-talent-mobility-map/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/internal-talent-mobility-map/SKILL.md"
+  },
+  {
+    "slug": "internship-search-campaign",
+    "title": "Internship Search Campaign Planner",
+    "description": "a student or early-career user wants to plan an internship search from target selection to follow-up",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/internship-search-campaign/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/internship-search-campaign/SKILL.md"
+  },
+  {
+    "slug": "interview-panel-calibration",
+    "title": "Interview Panel Calibration Guide",
+    "description": "a hiring panel wants to align on scorecard interpretation before or after candidate interviews",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/interview-panel-calibration/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/interview-panel-calibration/SKILL.md"
+  },
+  {
+    "slug": "interview-plan-and-panel-designer",
+    "title": "Structured Interview Plan and Panel Designer",
+    "description": "a hiring team wants a structured interview loop that assesses approved job-related competencies",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/interview-plan-and-panel-designer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/interview-plan-and-panel-designer/SKILL.md"
+  },
+  {
+    "slug": "interview-research-brief",
+    "title": "Interview Preparation Research Brief",
+    "description": "the user wants to prepare for an interview using a job description, company context, role expectations, or likely interview themes",
+    "agent": "Interview Coach",
+    "category": "Interview and offers",
+    "path": "../skills/interview-research-brief/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/interview-research-brief/SKILL.md"
+  },
+  {
+    "slug": "interview-thank-you-and-followup",
+    "title": "Interview Thank-you and Follow-up Writer",
+    "description": "the user wants to send a post-interview thank-you, status check, or follow-up on a real hiring process",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/interview-thank-you-and-followup/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/interview-thank-you-and-followup/SKILL.md"
+  },
+  {
+    "slug": "job-ad-accessibility-rewriter",
+    "title": "Accessible Job Advertisement Rewriter",
+    "description": "a hiring team wants to make a LinkedIn job post clearer, more accessible, and easier to assess",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/job-ad-accessibility-rewriter/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-ad-accessibility-rewriter/SKILL.md"
+  },
+  {
+    "slug": "job-alert-search-setup-planner",
+    "title": "Job Alert and Saved Search Planner",
+    "description": "the user wants a repeatable LinkedIn Jobs saved-search and alert strategy",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/job-alert-search-setup-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-alert-search-setup-planner/SKILL.md"
+  },
+  {
+    "slug": "job-description-writer",
+    "title": "Recruiter Job Description Writer",
+    "description": "the user wants to write or improve a job description, role scorecard, or hiring brief",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/job-description-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-description-writer/SKILL.md"
+  },
+  {
+    "slug": "job-fit-analyzer",
+    "title": "Job Fit Analyzer",
+    "description": "the user wants to compare a job description with their resume or experience and decide whether an application is worth prioritizing",
+    "agent": "Job Hunter",
+    "category": "Search and applications",
+    "path": "../skills/job-fit-analyzer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-fit-analyzer/SKILL.md"
+  },
+  {
+    "slug": "job-market-intelligence-brief",
+    "title": "Job Market Intelligence Brief",
+    "description": "the user wants a sourced view of hiring demand, role trends, skill requirements, or target-employer activity",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/job-market-intelligence-brief/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-market-intelligence-brief/SKILL.md"
+  },
+  {
+    "slug": "job-posting-risk-review",
+    "title": "Job Posting Risk Review",
+    "description": "the user wants to assess whether a LinkedIn job post looks suspicious, misleading, or incomplete",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/job-posting-risk-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-posting-risk-review/SKILL.md"
+  },
+  {
+    "slug": "job-search-strategist",
+    "title": "Job Search Strategist",
+    "description": "the user asks for a structured job search plan, role targeting strategy, search queries, or weekly job-search routine",
+    "agent": "Job Hunter",
+    "category": "Search and applications",
+    "path": "../skills/job-search-strategist/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/job-search-strategist/SKILL.md"
+  },
+  {
+    "slug": "layoff-transition-planner",
+    "title": "Layoff Transition Planner",
+    "description": "the user wants a practical LinkedIn and job-search transition plan after redundancy or a layoff",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/layoff-transition-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/layoff-transition-planner/SKILL.md"
+  },
+  {
+    "slug": "lead-qualification-discovery",
+    "title": "Lead Qualification and Discovery Planner",
+    "description": "the user wants to prepare discovery questions to assess whether a prospect has a real business need and fit",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/lead-qualification-discovery/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/lead-qualification-discovery/SKILL.md"
+  },
+  {
+    "slug": "linkedin-ads-creative-brief",
+    "title": "LinkedIn Ads Creative Brief",
+    "description": "the user wants to prepare paid LinkedIn ad creative across image, video, document, carousel or message formats",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-ads-creative-brief/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-ads-creative-brief/SKILL.md"
+  },
+  {
+    "slug": "linkedin-ads-objective-and-budget-planner",
+    "title": "LinkedIn Ads Objective and Budget Planner",
+    "description": "the user wants to plan a LinkedIn Campaign Manager campaign objective, funnel role, budget hypothesis and success measures",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-ads-objective-and-budget-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-ads-objective-and-budget-planner/SKILL.md"
+  },
+  {
+    "slug": "linkedin-audience-targeting-review",
+    "title": "LinkedIn Ads Audience Targeting Review",
+    "description": "the user wants to review LinkedIn campaign audience targeting for relevance, exclusions, privacy and fairness",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-audience-targeting-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-audience-targeting-review/SKILL.md"
+  },
+  {
+    "slug": "linkedin-campaign-performance-diagnostic",
+    "title": "LinkedIn Campaign Performance Diagnostic",
+    "description": "the user wants to interpret Campaign Manager results and decide what to test or change",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-campaign-performance-diagnostic/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-campaign-performance-diagnostic/SKILL.md"
+  },
+  {
+    "slug": "linkedin-career-page-content-strategy",
+    "title": "LinkedIn Career Page Content Strategy",
+    "description": "an employer wants to plan content for a LinkedIn Career Page or employer-brand section",
+    "agent": "Page Marketing Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-career-page-content-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-career-page-content-strategy/SKILL.md"
+  },
+  {
+    "slug": "linkedin-conversion-tracking-readiness",
+    "title": "LinkedIn Conversion Tracking Readiness Review",
+    "description": "the user wants to plan or review readiness for LinkedIn conversion measurement and attribution",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-conversion-tracking-readiness/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-conversion-tracking-readiness/SKILL.md"
+  },
+  {
+    "slug": "linkedin-event-strategy",
+    "title": "LinkedIn Event Strategy",
+    "description": "the user wants to plan, promote, or follow up on a LinkedIn Live, webinar, workshop, or professional event",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/linkedin-event-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-event-strategy/SKILL.md"
+  },
+  {
+    "slug": "linkedin-group-community-playbook",
+    "title": "LinkedIn Group and Community Playbook",
+    "description": "the user wants to build, moderate, or contribute to a professional LinkedIn group or community",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/linkedin-group-community-playbook/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-group-community-playbook/SKILL.md"
+  },
+  {
+    "slug": "linkedin-job-ad-campaign-planner",
+    "title": "LinkedIn Job Ad Campaign Planner",
+    "description": "an employer wants to plan paid promotion for a LinkedIn job or talent campaign",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-job-ad-campaign-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-job-ad-campaign-planner/SKILL.md"
+  },
+  {
+    "slug": "linkedin-lead-gen-form-designer",
+    "title": "LinkedIn Lead Gen Form Designer",
+    "description": "the user wants to design or review a LinkedIn Lead Gen Form and its value exchange",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-lead-gen-form-designer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-lead-gen-form-designer/SKILL.md"
+  },
+  {
+    "slug": "linkedin-learning-creator-content-plan",
+    "title": "LinkedIn Learning Creator Content Plan",
+    "description": "an instructor or subject expert wants to plan course or educational content for LinkedIn Learning",
+    "agent": "Career Growth Coach",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-learning-creator-content-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-learning-creator-content-plan/SKILL.md"
+  },
+  {
+    "slug": "linkedin-learning-path-curator",
+    "title": "LinkedIn Learning Path Curator",
+    "description": "the user wants to build a learning path using LinkedIn Learning or other course resources for a target skill or role",
+    "agent": "Career Growth Coach",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-learning-path-curator/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-learning-path-curator/SKILL.md"
+  },
+  {
+    "slug": "linkedin-learning-program-designer",
+    "title": "LinkedIn Learning Program Designer",
+    "description": "an organization or learning team wants to curate LinkedIn Learning content for a workforce development program",
+    "agent": "Career Growth Coach",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-learning-program-designer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-learning-program-designer/SKILL.md"
+  },
+  {
+    "slug": "linkedin-longform-article-writer",
+    "title": "LinkedIn Long-form Article Writer",
+    "description": "the user wants to turn expertise, research, or a practical lesson into a LinkedIn article",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/linkedin-longform-article-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-longform-article-writer/SKILL.md"
+  },
+  {
+    "slug": "linkedin-newsletter-strategy",
+    "title": "LinkedIn Newsletter Strategy",
+    "description": "the user wants to launch, position, plan, or improve a LinkedIn newsletter",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/linkedin-newsletter-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-newsletter-strategy/SKILL.md"
+  },
+  {
+    "slug": "linkedin-post-writer",
+    "title": "LinkedIn Post Writer",
+    "description": "the user wants to draft or improve a LinkedIn post, announcement, lesson, project update, or professional point of view",
+    "agent": "Content Strategist",
+    "category": "Brand and content",
+    "path": "../skills/linkedin-post-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-post-writer/SKILL.md"
+  },
+  {
+    "slug": "linkedin-product-page-positioning",
+    "title": "LinkedIn Product Page Positioning",
+    "description": "a company wants to present a specific product on a LinkedIn Product Page",
+    "agent": "Page Marketing Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-product-page-positioning/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-product-page-positioning/SKILL.md"
+  },
+  {
+    "slug": "linkedin-profile-conversion-path",
+    "title": "Profile Visitor Conversion Path Designer",
+    "description": "a professional wants to turn profile visits into appropriate conversations, service enquiries, or career opportunities",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/linkedin-profile-conversion-path/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-profile-conversion-path/SKILL.md"
+  },
+  {
+    "slug": "linkedin-showcase-page-strategy",
+    "title": "LinkedIn Showcase Page Strategy",
+    "description": "a company wants to determine whether to create and manage a LinkedIn Showcase Page for a product, business unit or initiative",
+    "agent": "Page Marketing Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-showcase-page-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-showcase-page-strategy/SKILL.md"
+  },
+  {
+    "slug": "linkedin-sponsored-message-copy-review",
+    "title": "LinkedIn Sponsored Message Copy Review",
+    "description": "the user wants to review paid LinkedIn Sponsored Messaging or Conversation Ad copy for clarity and relevance",
+    "agent": "LinkedIn Ads Strategist",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-sponsored-message-copy-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-sponsored-message-copy-review/SKILL.md"
+  },
+  {
+    "slug": "linkedin-university-page-alumni-strategy",
+    "title": "LinkedIn University Page and Alumni Strategy",
+    "description": "a university or student career team wants to use its LinkedIn University Page and alumni network responsibly",
+    "agent": "Career Growth Coach",
+    "category": "Marketing and learning",
+    "path": "../skills/linkedin-university-page-alumni-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/linkedin-university-page-alumni-strategy/SKILL.md"
+  },
+  {
+    "slug": "mentor-relationship-plan",
+    "title": "Mentor Relationship Plan",
+    "description": "the user wants to find, approach, or maintain a productive mentoring relationship on LinkedIn",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/mentor-relationship-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/mentor-relationship-plan/SKILL.md"
+  },
+  {
+    "slug": "mock-interview-coach",
+    "title": "Mock Interview Coach",
+    "description": "the user wants a mock interview, practice questions, answer feedback, or a structured interview rehearsal",
+    "agent": "Interview Coach",
+    "category": "Interview and offers",
+    "path": "../skills/mock-interview-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/mock-interview-coach/SKILL.md"
+  },
+  {
+    "slug": "network-map-builder",
+    "title": "Professional Network Map Builder",
+    "description": "the user wants to map their professional network, identify relationship paths, or plan authentic networking activity",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/network-map-builder/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/network-map-builder/SKILL.md"
+  },
+  {
+    "slug": "offer-brief-and-approval",
+    "title": "Recruitment Offer Brief and Approval Pack",
+    "description": "a recruiter wants to prepare an offer recommendation or approval brief using confirmed role and compensation terms",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/offer-brief-and-approval/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/offer-brief-and-approval/SKILL.md"
+  },
+  {
+    "slug": "offer-comparison-worksheet",
+    "title": "Offer Comparison Worksheet",
+    "description": "the user wants to compare two or more job offers across compensation, role, growth, location, risk, and values",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/offer-comparison-worksheet/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/offer-comparison-worksheet/SKILL.md"
+  },
+  {
+    "slug": "onboarding-handoff",
+    "title": "Recruitment-to-Onboarding Handoff",
+    "description": "a recruiter wants to transfer an accepted candidate's relevant hiring context to the onboarding team",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/onboarding-handoff/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/onboarding-handoff/SKILL.md"
+  },
+  {
+    "slug": "open-to-work-visibility-planner",
+    "title": "Open to Work Visibility Planner",
+    "description": "the user wants to decide how to communicate job-seeking status and review LinkedIn Open to Work visibility options",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/open-to-work-visibility-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/open-to-work-visibility-planner/SKILL.md"
+  },
+  {
+    "slug": "page-analytics-diagnostic",
+    "title": "LinkedIn Page Analytics Diagnostic",
+    "description": "a Page owner wants to interpret LinkedIn company-page content, follower, visitor, or search appearance analytics",
+    "agent": "Content Strategist",
+    "category": "Creator, content and company presence",
+    "path": "../skills/page-analytics-diagnostic/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/page-analytics-diagnostic/SKILL.md"
+  },
+  {
+    "slug": "partnership-outreach-plan",
+    "title": "Partnership Outreach Planner",
+    "description": "the user wants to identify and approach potential collaborators, ecosystem partners, or channel partners on LinkedIn",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/partnership-outreach-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/partnership-outreach-plan/SKILL.md"
+  },
+  {
+    "slug": "personal-brand-strategist",
+    "title": "Personal Brand Strategist",
+    "description": "the user wants to define their professional positioning, audience, themes, voice, or personal brand across LinkedIn and other channels",
+    "agent": "Content Strategist",
+    "category": "Brand and content",
+    "path": "../skills/personal-brand-strategist/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/personal-brand-strategist/SKILL.md"
+  },
+  {
+    "slug": "portfolio-project-story",
+    "title": "Portfolio and Project Storyteller",
+    "description": "the user wants to explain a portfolio project, open-source contribution, case study, hackathon, or side project for LinkedIn or applications",
+    "agent": "Career Transition Advisor",
+    "category": "Career-stage variants",
+    "path": "../skills/portfolio-project-story/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/portfolio-project-story/SKILL.md"
+  },
+  {
+    "slug": "professional-reference-prep",
+    "title": "Professional Reference Preparation",
+    "description": "the user wants to select, brief, or prepare professional references for a job or opportunity",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/professional-reference-prep/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/professional-reference-prep/SKILL.md"
+  },
+  {
+    "slug": "profile-audit",
+    "title": "LinkedIn Profile Audit",
+    "description": "the user asks for a structured review or score of their LinkedIn profile, or wants to know what to fix first",
+    "agent": "Profile Optimizer",
+    "category": "Profile",
+    "path": "../skills/profile-audit/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/profile-audit/SKILL.md"
+  },
+  {
+    "slug": "profile-keyword-mapper",
+    "title": "Profile Keyword Mapper",
+    "description": "the user wants to identify and naturally map role, skill, or industry keywords into their LinkedIn profile using a target job or audience",
+    "agent": "Profile Optimizer",
+    "category": "Profile",
+    "path": "../skills/profile-keyword-mapper/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/profile-keyword-mapper/SKILL.md"
+  },
+  {
+    "slug": "profile-language-localizer",
+    "title": "Profile Language Localizer",
+    "description": "the user wants to adapt a LinkedIn profile for another language, region, market, or professional culture",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/profile-language-localizer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/profile-language-localizer/SKILL.md"
+  },
+  {
+    "slug": "profile-skills-endorsement-strategy",
+    "title": "Skills and Endorsement Strategy",
+    "description": "the user wants to curate their LinkedIn skills section or plan authentic endorsement requests",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/profile-skills-endorsement-strategy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/profile-skills-endorsement-strategy/SKILL.md"
+  },
+  {
+    "slug": "promotion-case-builder",
+    "title": "Promotion Case Builder",
+    "description": "the user wants to prepare a promotion case or career progression discussion using documented outcomes",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/promotion-case-builder/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/promotion-case-builder/SKILL.md"
+  },
+  {
+    "slug": "public-profile-privacy-audit",
+    "title": "Public Profile Privacy Audit",
+    "description": "the user wants to review personal information, visibility, contact details, or discoverability risks on a LinkedIn profile",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/public-profile-privacy-audit/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/public-profile-privacy-audit/SKILL.md"
+  },
+  {
+    "slug": "recommendation-request-coach",
+    "title": "Recommendation Request Coach",
+    "description": "the user wants to ask a former manager, peer, client, mentor, or collaborator for a LinkedIn recommendation",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/recommendation-request-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recommendation-request-coach/SKILL.md"
+  },
+  {
+    "slug": "recommendation-response-helper",
+    "title": "Recommendation Response Helper",
+    "description": "the user wants to write or respond to a professional LinkedIn recommendation without exaggerating the relationship",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/recommendation-response-helper/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recommendation-response-helper/SKILL.md"
+  },
+  {
+    "slug": "recruiter-capacity-prioritization",
+    "title": "Recruiter Capacity and Requisition Prioritizer",
+    "description": "a recruiting lead wants to prioritize open requisitions against capacity and business urgency",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiter-capacity-prioritization/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiter-capacity-prioritization/SKILL.md"
+  },
+  {
+    "slug": "recruiter-communication-calendar",
+    "title": "Recruiter Communication Calendar",
+    "description": "a recruiter wants to coordinate candidate updates and hiring-team communications across a live process",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiter-communication-calendar/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiter-communication-calendar/SKILL.md"
+  },
+  {
+    "slug": "recruiter-pipeline-review",
+    "title": "Recruiter Pipeline Review",
+    "description": "a recruiter wants to review a hiring pipeline, identify bottlenecks, or prepare a status update",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiter-pipeline-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiter-pipeline-review/SKILL.md"
+  },
+  {
+    "slug": "recruiter-reply-coach",
+    "title": "Recruiter Reply Coach",
+    "description": "the user wants to respond to a recruiter about an opportunity, screening question, interview, compensation, availability, or rejection",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/recruiter-reply-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiter-reply-coach/SKILL.md"
+  },
+  {
+    "slug": "recruiter-role-intake",
+    "title": "Recruiter Role Intake",
+    "description": "a recruiter or hiring manager wants to convert a hiring request into a clear, approved role brief",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiter-role-intake/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiter-role-intake/SKILL.md"
+  },
+  {
+    "slug": "recruiter-source-effectiveness-review",
+    "title": "Recruiter Source Effectiveness Review",
+    "description": "a recruiter wants to compare sourcing channel usefulness using anonymized aggregate pipeline data",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiter-source-effectiveness-review/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiter-source-effectiveness-review/SKILL.md"
+  },
+  {
+    "slug": "recruiting-agency-client-intake",
+    "title": "Recruitment Agency Client Intake",
+    "description": "an agency recruiter wants to qualify a new client brief and agree search delivery expectations",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiting-agency-client-intake/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiting-agency-client-intake/SKILL.md"
+  },
+  {
+    "slug": "recruiting-retrospective",
+    "title": "Recruiting Retrospective and Continuous Improvement",
+    "description": "a hiring team wants to review a completed hiring campaign and agree improvements",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruiting-retrospective/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruiting-retrospective/SKILL.md"
+  },
+  {
+    "slug": "recruitment-campaign-planner",
+    "title": "Recruitment Campaign Planner",
+    "description": "a talent team wants to plan a targeted hiring campaign for a defined role or talent segment",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruitment-campaign-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruitment-campaign-planner/SKILL.md"
+  },
+  {
+    "slug": "recruitment-employee-advocacy",
+    "title": "Recruitment Employee Advocacy Planner",
+    "description": "an employer wants employees to share authentic hiring or workplace information voluntarily",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruitment-employee-advocacy/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruitment-employee-advocacy/SKILL.md"
+  },
+  {
+    "slug": "recruitment-process-scorecard",
+    "title": "Recruitment Process Scorecard Designer",
+    "description": "a talent lead wants a scorecard for recruiting process health rather than individual candidate ranking",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/recruitment-process-scorecard/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/recruitment-process-scorecard/SKILL.md"
+  },
+  {
+    "slug": "reference-check-planner",
+    "title": "Reference Check Planner",
+    "description": "a recruiter or candidate wants to plan a fair, consistent professional reference check",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/reference-check-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/reference-check-planner/SKILL.md"
+  },
+  {
+    "slug": "referral-request-writer",
+    "title": "Referral Request Writer",
+    "description": "the user wants to request a referral, employee introduction, or internal role guidance from an existing professional connection",
+    "agent": "Outreach Writer",
+    "category": "Networking",
+    "path": "../skills/referral-request-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/referral-request-writer/SKILL.md"
+  },
+  {
+    "slug": "resignation-and-handover-plan",
+    "title": "Resignation and Handover Planner",
+    "description": "the user wants to plan a professional resignation message and knowledge handover",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/resignation-and-handover-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/resignation-and-handover-plan/SKILL.md"
+  },
+  {
+    "slug": "resume-tailor",
+    "title": "Resume Tailoring and ATS Readability",
+    "description": "the user wants to tailor a resume to a specific job description or improve its parsing and readability for applicant tracking systems",
+    "agent": "Job Hunter",
+    "category": "Search and applications",
+    "path": "../skills/resume-tailor/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/resume-tailor/SKILL.md"
+  },
+  {
+    "slug": "salary-negotiation-coach",
+    "title": "Salary and Offer Negotiation Coach",
+    "description": "the user wants to evaluate an offer, prepare a compensation discussion, negotiate salary, or compare total compensation",
+    "agent": "Interview Coach",
+    "category": "Interview and offers",
+    "path": "../skills/salary-negotiation-coach/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/salary-negotiation-coach/SKILL.md"
+  },
+  {
+    "slug": "sales-meeting-followup",
+    "title": "Sales Meeting Follow-up and Mutual Action Plan",
+    "description": "the user wants to turn a real LinkedIn-originated sales conversation into clear next steps",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/sales-meeting-followup/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/sales-meeting-followup/SKILL.md"
+  },
+  {
+    "slug": "sales-navigator-query-planner",
+    "title": "Sales Navigator Search Planner",
+    "description": "the user wants to design a Sales Navigator lead or account search with relevant filters",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/sales-navigator-query-planner/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/sales-navigator-query-planner/SKILL.md"
+  },
+  {
+    "slug": "service-business-lead-conversion",
+    "title": "Service Business Lead Conversion Coach",
+    "description": "a freelancer or small service business wants to convert LinkedIn enquiries into qualified discovery calls or proposals",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/service-business-lead-conversion/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/service-business-lead-conversion/SKILL.md"
+  },
+  {
+    "slug": "service-page-positioning-builder",
+    "title": "Services Page Positioning Builder",
+    "description": "the user wants to position freelance, consulting, or professional services on a LinkedIn Services Page",
+    "agent": "Profile Optimizer",
+    "category": "Profile and reputation",
+    "path": "../skills/service-page-positioning-builder/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/service-page-positioning-builder/SKILL.md"
+  },
+  {
+    "slug": "skills-gap-and-learning-plan",
+    "title": "Skills Gap and Learning Plan",
+    "description": "the user wants to compare their current skills with a target LinkedIn role or job description and plan learning",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/skills-gap-and-learning-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/skills-gap-and-learning-plan/SKILL.md"
+  },
+  {
+    "slug": "skills-inventory-curator",
+    "title": "Skills Inventory Curator",
+    "description": "the user wants to organize, prioritize, validate, or choose LinkedIn skills and endorsements for a target role",
+    "agent": "Profile Optimizer",
+    "category": "Profile",
+    "path": "../skills/skills-inventory-curator/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/skills-inventory-curator/SKILL.md"
+  },
+  {
+    "slug": "social-selling-account-plan",
+    "title": "Social Selling Account Plan",
+    "description": "a sales professional wants to build a respectful LinkedIn engagement plan for a named target account",
+    "agent": "Sales Development Strategist",
+    "category": "Sales, partnerships and business development",
+    "path": "../skills/social-selling-account-plan/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/social-selling-account-plan/SKILL.md"
+  },
+  {
+    "slug": "star-story-bank",
+    "title": "STAR Story Bank Builder",
+    "description": "the user wants to create, organize, or improve behavioral interview stories using STAR or a similar evidence structure",
+    "agent": "Interview Coach",
+    "category": "Interview and offers",
+    "path": "../skills/star-story-bank/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/star-story-bank/SKILL.md"
+  },
+  {
+    "slug": "structured-interview-scorecard",
+    "title": "Structured Interview Scorecard",
+    "description": "the user wants an interview scorecard, competency-based questions, or consistent evaluation guidance for a hiring panel",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/structured-interview-scorecard/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/structured-interview-scorecard/SKILL.md"
+  },
+  {
+    "slug": "student-career-launch",
+    "title": "Student Career Launch",
+    "description": "the user is a student seeking internships, placements, campus opportunities, early-career direction, or a credible LinkedIn presence",
+    "agent": "Career Transition Advisor",
+    "category": "Career-stage variants",
+    "path": "../skills/student-career-launch/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/student-career-launch/SKILL.md"
+  },
+  {
+    "slug": "talent-boolean-search-builder",
+    "title": "Talent Boolean Search Builder",
+    "description": "a recruiter wants search strings for public professional search tools or approved sourcing databases",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/talent-boolean-search-builder/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/talent-boolean-search-builder/SKILL.md"
+  },
+  {
+    "slug": "talent-brand-content-writer",
+    "title": "Recruiting and Talent Brand Content Writer",
+    "description": "a talent team wants LinkedIn content about roles, employee learning, recruiting events, or workplace practices",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/talent-brand-content-writer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/talent-brand-content-writer/SKILL.md"
+  },
+  {
+    "slug": "talent-community-nurture",
+    "title": "Talent Community Nurture Planner",
+    "description": "a recruiter wants to maintain respectful engagement with a consenting talent community",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/talent-community-nurture/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/talent-community-nurture/SKILL.md"
+  },
+  {
+    "slug": "talent-market-map",
+    "title": "Talent Market Mapping Brief",
+    "description": "a recruiter wants to map public talent pools, adjacent industries, role titles, and geographic supply for an approved search",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/talent-market-map/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/talent-market-map/SKILL.md"
+  },
+  {
+    "slug": "talent-sourcing-strategist",
+    "title": "Talent Sourcing Strategist",
+    "description": "the user wants an ethical sourcing strategy, target talent profile, search plan, or candidate outreach funnel for a role",
+    "agent": "Recruiter Assistant",
+    "category": "Recruiting",
+    "path": "../skills/talent-sourcing-strategist/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/talent-sourcing-strategist/SKILL.md"
+  },
+  {
+    "slug": "weekly-job-search-sprint",
+    "title": "Weekly Job Search Sprint Planner",
+    "description": "the user wants to organize a manageable weekly cycle of job discovery, applications, networking, and interview practice",
+    "agent": "Job Hunter",
+    "category": "Job search and career operations",
+    "path": "../skills/weekly-job-search-sprint/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/weekly-job-search-sprint/SKILL.md"
+  },
+  {
+    "slug": "work-sample-assessment-designer",
+    "title": "Work Sample Assessment Designer",
+    "description": "a hiring team wants a practical exercise or work sample that reflects real role tasks",
+    "agent": "Recruiter Operations Partner",
+    "category": "Recruiting and talent operations",
+    "path": "../skills/work-sample-assessment-designer/SKILL.md",
+    "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/skills/work-sample-assessment-designer/SKILL.md"
+  }
+]
