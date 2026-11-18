@@ -166,11 +166,11 @@ python -m unittest discover -s tests -v
 
 These validate file structure, metadata, catalogue coverage and test cases. They do not prove model quality, platform compliance or hiring outcomes. See [`docs/evaluation.md`](docs/evaluation.md).
 
-## Visit the dedicated project site
+## Dedicated GitHub Pages site
 
-The static GitHub Pages site includes the searchable skill catalogue, agent directory, use-case paths and documentation hub: **[Open LinkedIn Skills 360](https://voyager67.github.io/LinkedIn-Skills-360/)**.
+A separate static site is included in [`site/`](site/): a landing page, searchable skill catalogue, agent directory, audience use cases and documentation hub. It is ready for GitHub Pages deployment at **[voyager67.github.io/LinkedIn-Skills-360](https://voyager67.github.io/LinkedIn-Skills-360/)** once Pages is enabled.
 
-The site is deployed from `site/` through [GitHub Actions](.github/workflows/pages.yml). Enable GitHub Pages with **Settings → Pages → Build and deployment → Source: GitHub Actions** after repository visibility and Pages eligibility are configured.
+**Activation is not complete yet.** The repository is currently private and GitHub returned “Pages site not found” on the first deployment attempt. Open **Settings → Pages → Build and deployment → Source: GitHub Actions**, confirm the repository/account plan supports the intended public visibility, then run the [Deploy GitHub Pages workflow](.github/workflows/pages.yml). See [`PAGES.md`](PAGES.md) for the exact steps and current status.
 
 ## Help improve the ecosystem
 
