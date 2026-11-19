@@ -10,11 +10,11 @@
 [![Agent Skills](https://img.shields.io/badge/format-SKILL.md-8b5cf6.svg)](https://agentskills.io/)
 [![Model Agnostic](https://img.shields.io/badge/models-Claude%20%7C%20ChatGPT%20%7C%20Gemini%20%7C%20Local-06b6d4.svg)](adapters/README.md)
 [![Human Approved](https://img.shields.io/badge/actions-human--approved-10b981.svg)](docs/privacy-and-safety.md)
-[![GitHub Pages](https://img.shields.io/badge/site-GitHub%20Pages-111827.svg)](site/index.html)
+[![GitHub Pages](https://img.shields.io/badge/site-live-10b981.svg)](https://voyager67.github.io/LinkedIn-Skills-360/)
 
 **141 focused skills · 18 specialist agents · 1 orchestrator · 18 example prompts · 32 reusable templates**
 
-**[Explore site source](site/index.html) · [Browse skills](skills/README.md) · [Meet the agents](agents/orchestrator.md) · [Get started](INSTALL.md)**
+**[Explore the live site](https://voyager67.github.io/LinkedIn-Skills-360/) · [Browse skills](skills/README.md) · [Meet the agents](agents/orchestrator.md) · [Get started](INSTALL.md)**
 
 </div>
 
@@ -59,7 +59,7 @@ Counts are derived from repository contents. They describe the library, not adop
 | **Recruiting & hiring** | Role intake, sourcing, talent maps, candidate experience, structured interviews and onboarding |
 | **Learning & development** | LinkedIn Learning pathways, competency mapping and L&D program design |
 
-**Every skill** has activation triggers, required inputs, a step-by-step workflow, output format, example prompt, edge cases and quality/safety checks. Browse the [complete skill index](skills/README.md) or the interactive [website catalogue source](site/skills/index.html).
+**Every skill** has activation triggers, required inputs, a step-by-step workflow, output format, example prompt, edge cases and quality/safety checks. Browse the [complete skill index](skills/README.md) or the interactive [website catalogue](https://voyager67.github.io/LinkedIn-Skills-360/skills/).
 
 ## Meet the multi-agent team
 
@@ -110,7 +110,7 @@ The 18 specialist role prompts cover profile optimization, job search, outreach,
 - **Recruiters & talent teams:** structure role intake, sourcing, candidate communications, interviewing and funnel reviews.
 - **Hiring managers:** define job-related competencies, consistent interview plans, work samples and evidence-based debriefs.
 
-Explore the [website use-case pages](site/use-cases/index.html).
+Explore the [website use-case pages](https://voyager67.github.io/LinkedIn-Skills-360/use-cases/).
 
 ## 60-second quick start
 
@@ -168,7 +168,7 @@ These validate file structure, metadata, catalogue coverage and test cases. They
 
 ## Dedicated GitHub Pages site
 
-A dedicated static site is included in [`site/`](site/): a landing page, searchable skill catalogue, agent directory, audience use cases and documentation hub. The source is ready for GitHub Pages deployment. Enable Pages with **Settings → Pages → Build and deployment → Source: GitHub Actions**, then run the [Deploy GitHub Pages workflow](.github/workflows/pages.yml). See [`docs/deployment.md`](docs/deployment.md) for deployment, visibility and verification guidance. Do not assume the public site is live until the deployment workflow succeeds.
+The dedicated static site is deployed at **[voyager67.github.io/LinkedIn-Skills-360](https://voyager67.github.io/LinkedIn-Skills-360/)**. It includes a landing page, searchable skill catalogue, agent directory, audience use cases and documentation hub. The Pages workflow publishes only `site/`; see [`docs/deployment.md`](docs/deployment.md) for deployment, visibility and verification guidance.
 
 ## Help improve the ecosystem
 
