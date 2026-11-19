@@ -68,7 +68,9 @@ class RepositoryTests(unittest.TestCase):
 
     def test_pages_workflow_is_scoped_and_actions_are_pinned(self):
         pages = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
-        self.assertIn("path: site", pages)
+        self.assertIn("source: ./site", pages)
+        self.assertIn("path: ./_site", pages)
+        self.assertIn("actions/jekyll-build-pages@", pages)
         self.assertNotRegex(pages, r"(?m)^\s*path:\s*[\"']?\.[\"']?\s*$")
         self.assertFalse((ROOT / ".github/workflows/static.yml").exists())
         validate = (ROOT / ".github/workflows/validate.yml").read_text(encoding="utf-8")
@@ -79,6 +81,21 @@ class RepositoryTests(unittest.TestCase):
                 self.assertRegex(action, r"@[0-9a-f]{40}(?:\s+# .+)?$")
         self.assertIn("cancel-in-progress: false", pages)
         self.assertNotIn("actions: read", pages)
+
+    def test_jekyll_site_has_shared_layouts_and_project_baseurl(self):
+        config = (ROOT / "site/_config.yml").read_text(encoding="utf-8")
+        self.assertIn('baseurl: "/LinkedIn-Skills-360"', config)
+        self.assertIn("strict_front_matter: true", config)
+        self.assertTrue((ROOT / "site/_layouts/default.html").is_file())
+        self.assertTrue((ROOT / "site/_includes/header.html").is_file())
+        self.assertTrue((ROOT / "site/_includes/footer.html").is_file())
+        for page in ["index.html", "skills/index.html", "agents/index.html",
+                     "use-cases/index.html", "docs/index.html", "404.html"]:
+            content = (ROOT / "site" / page).read_text(encoding="utf-8")
+            self.assertTrue(content.startswith("---\\n"), page)
+            self.assertIn("layout: default", content, page)
+        self.assertTrue((ROOT / "site/sitemap.xml").is_file())
+        self.assertTrue((ROOT / "site/robots.txt").is_file())
 
     def test_issue_template_has_real_security_contact(self):
         text = (ROOT / ".github/ISSUE_TEMPLATE/config.yml").read_text(encoding="utf-8")

@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="LinkedIn Skills 360 home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="13.5" fill="none" stroke="#d9ef73" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="65 20" transform="rotate(-42 24 24)"/><circle cx="24" cy="24" r="7" fill="none" stroke="#8eb0ff" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="27 17" transform="rotate(138 24 24)"/><circle cx="36.8" cy="14.3" r="2.6" fill="#d9ef73"/></svg></span>
+      <span class="brand-name">LinkedIn Skills <span>360</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Overview</a>
+      <a href="{{ '/skills/' | relative_url }}"{% if page.nav == 'skills' %} aria-current="page"{% endif %}>Skills</a>
+      <a href="{{ '/agents/' | relative_url }}"{% if page.nav == 'agents' %} aria-current="page"{% endif %}>Agents</a>
+      <a href="{{ '/use-cases/' | relative_url }}"{% if page.nav == 'use-cases' %} aria-current="page"{% endif %}>Use cases</a>
+      <a href="{{ '/docs/' | relative_url }}"{% if page.nav == 'docs' %} aria-current="page"{% endif %}>Docs</a>
+      <a class="nav-github" href="https://github.com/voyager67/LinkedIn-Skills-360" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,24 @@
+title: LinkedIn Skills 360
+description: A practical, model-agnostic skill library for professional work on LinkedIn — careers, creators, sales, recruiting and hiring.
+url: "https://voyager67.github.io"
+baseurl: "/LinkedIn-Skills-360"
+lang: en
+markdown: kramdown
+permalink: pretty
+strict_front_matter: true
+encoding: utf-8
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+  - .DS_Store
+  - "*.map"
+  - "*.log"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/social-preview.jpg

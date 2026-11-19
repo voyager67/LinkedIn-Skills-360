@@ -101,10 +101,12 @@ def validate_workflows() -> None:
         fail("required Pages and validation workflows are missing")
 
     pages = pages_path.read_text(encoding="utf-8")
-    if not re.search(r"^\s+path:\s*site\s*$", pages, re.M):
-        fail("Pages workflow must upload only site/")
-    if re.search(r"^\s+path:\s*[\"']?\.[\"']?\s*$", pages, re.M):
-        fail("Pages workflow must never upload repository root")
+    if not re.search(r"^\s+source:\s*\./site\s*$", pages, re.M):
+        fail("Jekyll build must use site/ as its source")
+    if not re.search(r"^\s+path:\s*\./_site\s*$", pages, re.M):
+        fail("Pages workflow must upload only the generated _site/ directory")
+    if "actions/jekyll-build-pages@" not in pages:
+        fail("Pages workflow must build the website with the official Jekyll action")
     if "cancel-in-progress: false" not in pages:
         fail("Pages deploy should not cancel an in-progress publish")
 

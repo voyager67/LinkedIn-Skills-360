@@ -168,7 +168,7 @@ These validate file structure, metadata, catalogue coverage and test cases. They
 
 ## Dedicated GitHub Pages site
 
-The dedicated static site is deployed at **[voyager67.github.io/LinkedIn-Skills-360](https://voyager67.github.io/LinkedIn-Skills-360/)**. It includes a landing page, searchable skill catalogue, agent directory, audience use cases and documentation hub. The Pages workflow publishes only `site/`; see [`docs/deployment.md`](docs/deployment.md) for deployment, visibility and verification guidance.
+The Jekyll-built static site is deployed at **[voyager67.github.io/LinkedIn-Skills-360](https://voyager67.github.io/LinkedIn-Skills-360/)**. It includes a landing page, searchable skill catalogue, agent directory, audience use cases and documentation hub. The Pages workflow publishes only `site/`; see [`docs/deployment.md`](docs/deployment.md) for deployment, visibility and verification guidance.
 
 ## Help improve the ecosystem
 
