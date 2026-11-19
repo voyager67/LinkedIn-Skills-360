@@ -92,7 +92,7 @@ class RepositoryTests(unittest.TestCase):
         for page in ["index.html", "skills/index.html", "agents/index.html",
                      "use-cases/index.html", "docs/index.html", "404.html"]:
             content = (ROOT / "site" / page).read_text(encoding="utf-8")
-            self.assertTrue(content.startswith("---\\n"), page)
+            self.assertTrue(content.startswith("---\n"), page)
             self.assertIn("layout: default", content, page)
         self.assertTrue((ROOT / "site/sitemap.xml").is_file())
         self.assertTrue((ROOT / "site/robots.txt").is_file())
