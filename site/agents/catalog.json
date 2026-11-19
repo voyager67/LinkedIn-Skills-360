@@ -2,115 +2,115 @@
   {
     "slug": "candidate-experience-partner",
     "title": "Candidate Experience Partner",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Improve candidate communication, process clarity, re-engagement, respectful closure and the handoff from recruiting to onboarding.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/candidate-experience-partner.md"
   },
   {
     "slug": "career-growth-coach",
     "title": "Career Growth Coach",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Support career development beyond an immediate job search: skills gaps, mentoring, internal mobility, promotion cases, offer decisions and first-90-day plans.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/career-growth-coach.md"
   },
   {
     "slug": "career-transition-advisor",
     "title": "Career Transition Advisor",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Help students, freshers and career switchers translate real experience into credible career positioning and build a practical evidence plan.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/career-transition-advisor.md"
   },
   {
     "slug": "content-strategist",
     "title": "Content Strategist",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Help professionals communicate useful ideas, build an authentic content system and keep profile and content positioning coherent.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/content-strategist.md"
   },
   {
     "slug": "creator-community-manager",
     "title": "Creator & Community Manager",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Help professionals and organizations build useful LinkedIn content systems, newsletters, articles, events, groups and thoughtful community interactions.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/creator-community-manager.md"
   },
   {
     "slug": "hiring-process-designer",
     "title": "Hiring Process Designer",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Design structured, job-related, consistent and accessible interviews, work samples, scorecards, panel calibration and debriefs.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/hiring-process-designer.md"
   },
   {
     "slug": "interview-coach",
     "title": "Interview Coach",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Help candidates prepare with role-specific research, real behavioral examples, practice questions, feedback and truthful negotiation.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/interview-coach.md"
   },
   {
     "slug": "job-hunter",
     "title": "Job Hunter",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Help a job seeker discover and prioritize appropriate opportunities, compare role requirements with evidence, tailor materials and track progress.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/job-hunter.md"
   },
   {
     "slug": "linkedin-ads-strategist",
     "title": "LinkedIn Ads Strategist",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Plan and review paid campaigns, objectives, audience relevance, Lead Gen Forms, creative briefs, job promotion and measurement readiness.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/linkedin-ads-strategist.md"
   },
   {
     "slug": "orchestrator",
     "title": "LinkedIn Skills Orchestrator",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Turn a user goal into the smallest coherent workflow, route to a primary specialist and define safe handoffs and approvals.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/orchestrator.md"
   },
   {
     "slug": "outreach-writer",
     "title": "Outreach Writer",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Create authentic, specific, respectful messages for networking, referrals, recruiters and follow-ups.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/outreach-writer.md"
   },
   {
     "slug": "page-marketing-strategist",
     "title": "Page Marketing Strategist",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Support Company Page positioning, editorial operations, Page analytics, employee advocacy and employer presence.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/page-marketing-strategist.md"
   },
   {
     "slug": "privacy-and-fairness-reviewer",
     "title": "Privacy & Fairness Reviewer",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Review personal, employee, customer and candidate-data workflows for minimization, consent, access boundaries, bias risks and accountable human decisions.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/privacy-and-fairness-reviewer.md"
   },
   {
     "slug": "profile-optimizer",
     "title": "Profile Optimizer",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Improve profile clarity, audience relevance, evidence and discoverability while preserving the user's real experience and voice.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/profile-optimizer.md"
   },
   {
     "slug": "quality-reviewer",
     "title": "Quality Reviewer",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Review career and recruiting deliverables for factual support, audience fit, completeness, clarity, usability, privacy and platform boundaries.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/quality-reviewer.md"
   },
   {
     "slug": "recruiter-assistant",
     "title": "Recruiter Assistant",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Support clear job descriptions, ethical sourcing, structured interviews, consistent human review and credible employer-brand communication.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/recruiter-assistant.md"
   },
   {
     "slug": "recruiter-operations-partner",
     "title": "Recruiter Operations Partner",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Support recruiting operations from role intake and sourcing strategy to pipeline health, hiring campaigns and continuous improvement.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/recruiter-operations-partner.md"
   },
   {
     "slug": "research-analyst",
     "title": "Research Analyst",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Gather and synthesize current public information relevant to a company, role, market or interview question.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/research-analyst.md"
   },
   {
     "slug": "sales-development-strategist",
     "title": "Sales Development Strategist",
-    "description": "A portable specialist role prompt for a bounded professional workflow.",
+    "description": "Help sales, partnerships and service businesses conduct relevant, ethical, research-led professional-network work without automating platform actions.",
     "github": "https://github.com/voyager67/LinkedIn-Skills-360/blob/main/agents/sales-development-strategist.md"
   }
 ]

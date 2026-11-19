@@ -1,4 +1,4 @@
-"""Structural regression tests for the LinkedIn Skills repository."""
+"""Structural and security-regression tests for LinkedIn Skills 360."""
 import json
 import re
 import unittest
@@ -6,12 +6,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+
 class RepositoryTests(unittest.TestCase):
     def test_skill_count_frontmatter_and_required_sections(self):
         files = sorted((ROOT / "skills").glob("*/SKILL.md"))
         self.assertEqual(len(files), 141)
         names = []
-        required = ["## When to use this skill", "## Inputs to collect", "## Workflow", "## Output format", "## Example prompt", "## Edge cases and failure handling", "## Quality and safety checks", "## Completion rule"]
+        required = [
+            "## When to use this skill", "## Inputs to collect", "## Workflow",
+            "## Output format", "## Example prompt", "## Edge cases and failure handling",
+            "## Quality and safety checks", "## Completion rule",
+        ]
         for path in files:
             content = path.read_text(encoding="utf-8")
             self.assertTrue(content.startswith("---\n"), path)
@@ -37,24 +42,56 @@ class RepositoryTests(unittest.TestCase):
     def test_eval_cases_cover_all_skills_once(self):
         skill_names = {p.parent.name for p in (ROOT / "skills").glob("*/SKILL.md")}
         cases = json.loads((ROOT / "evals/cases.json").read_text(encoding="utf-8"))["cases"]
-        self.assertEqual({c["skill"] for c in cases}, skill_names)
+        self.assertEqual({case["skill"] for case in cases}, skill_names)
         self.assertEqual(len(cases), len(skill_names))
 
-    def test_github_description_and_topics(self):
-        text = (ROOT / "GITHUB_METADATA.md").read_text(encoding="utf-8")
-        match = re.search(r"## Description \(under 350 characters\)\s+(.+?)\s+## Topics", text, re.S)
-        self.assertIsNotNone(match)
-        self.assertLess(len(match.group(1).strip()), 350)
-        topics = re.search(r"## Topics \(20\)\s+(.+?)\s+## Social preview", text, re.S)
-        self.assertIsNotNone(topics)
-        values = re.findall(r"`([^`]+)`", topics.group(1))
-        self.assertEqual(len(values), 20)
-        self.assertEqual(len(values), len(set(values)))
-
-    def test_all_skills_are_in_index(self):
+    def test_all_skills_are_in_markdown_index(self):
         index = (ROOT / "skills/README.md").read_text(encoding="utf-8")
         for path in (ROOT / "skills").glob("*/SKILL.md"):
-            self.assertIn(f"`{path.parent.name}`", index)
+            self.assertIn(chr(96) + path.parent.name + chr(96), index)
+
+    def test_website_catalogues_match_source_files(self):
+        skill_names = {p.parent.name for p in (ROOT / "skills").glob("*/SKILL.md")}
+        skills = json.loads((ROOT / "site/skills/catalog.json").read_text(encoding="utf-8"))
+        self.assertEqual({item["slug"] for item in skills}, skill_names)
+        self.assertEqual(len(skills), 141)
+        for item in skills:
+            self.assertTrue((ROOT / "skills" / item["slug"] / "SKILL.md").is_file())
+
+        agent_names = {p.stem for p in (ROOT / "agents").glob("*.md")}
+        agents = json.loads((ROOT / "site/agents/catalog.json").read_text(encoding="utf-8"))
+        self.assertEqual({item["slug"] for item in agents}, agent_names)
+        self.assertEqual(len(agents), 19)
+        descriptions = [item["description"] for item in agents]
+        self.assertEqual(len(descriptions), len(set(descriptions)))
+        self.assertTrue(all(d and d != "A portable specialist role prompt for a bounded professional workflow." for d in descriptions))
+
+    def test_pages_workflow_is_scoped_and_actions_are_pinned(self):
+        pages = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
+        self.assertIn("path: site", pages)
+        self.assertNotRegex(pages, r"(?m)^\s*path:\s*[\"']?\.[\"']?\s*$")
+        self.assertFalse((ROOT / ".github/workflows/static.yml").exists())
+        validate = (ROOT / ".github/workflows/validate.yml").read_text(encoding="utf-8")
+        for workflow in (pages, validate):
+            actions = re.findall(r"(?m)^\s*uses:\s*([^\s]+)", workflow)
+            self.assertTrue(actions)
+            for action in actions:
+                self.assertRegex(action, r"@[0-9a-f]{40}(?:\s+# .+)?$")
+        self.assertIn("cancel-in-progress: false", pages)
+        self.assertNotIn("actions: read", pages)
+
+    def test_issue_template_has_real_security_contact(self):
+        text = (ROOT / ".github/ISSUE_TEMPLATE/config.yml").read_text(encoding="utf-8")
+        self.assertNotIn("<YOUR_GITHUB_OWNER>", text)
+        self.assertIn("https://github.com/voyager67/LinkedIn-Skills-360/blob/main/SECURITY.md", text)
+
+    def test_owner_only_housekeeping_files_are_not_shipped(self):
+        for name in ["FILE_TREE.txt", "GITHUB_METADATA.md", "SOCIAL_PREVIEW.md", "PAGES.md"]:
+            self.assertFalse((ROOT / name).exists(), name)
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertNotIn("PAGES.md", readme)
+        self.assertNotIn("GITHUB_METADATA.md", readme)
+
 
 if __name__ == "__main__":
     unittest.main()
